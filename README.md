@@ -1,6 +1,4 @@
 # Terminal
-[![Packaging status](https://repology.org/badge/tiny-repos/elementary-terminal.svg)](https://repology.org/metapackage/elementary-terminal)
-[![Translation status](https://l10n.phyreos.io/widgets/terminal/-/svg-badge.svg)](https://l10n.phyreos.io/engage/terminal/?utm_source=widget)
 
 ## The terminal of the 21st century.
 

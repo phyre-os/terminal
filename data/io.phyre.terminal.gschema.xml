@@ -16,7 +16,7 @@
     <value value="2" nick="Never Show Tabs"/>
   </enum>
 
-  <schema path="/io/elementary/terminal/saved-state/" id="io.phyre.terminal.saved-state">
+  <schema path="/io/phyre/terminal/saved-state/" id="io.phyre.terminal.saved-state">
     <key name="window-height" type="i">
       <default>700</default>
       <summary>Most recent window height</summary>
@@ -55,7 +55,7 @@
     </key>
   </schema>
 
-  <schema path="/io/elementary/terminal/settings/" id="io.phyre.terminal.settings">
+  <schema path="/io/phyre/terminal/settings/" id="io.phyre.terminal.settings">
     <key name="scrollback-lines" type="i">
       <default>-1</default>
       <summary>Number of scrollback lines</summary>

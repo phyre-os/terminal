@@ -218,7 +218,7 @@ public class Terminal.Application : Gtk.Application {
         themes = new Themes ();
 
         var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/io/elementary/terminal/Application.css");
+        provider.load_from_resource ("/io/phyre/terminal/Application.css");
 
         /* Vte.Terminal itself registers its default styling with the APPLICATION priority:
          * https://gitlab.gnome.org/GNOME/vte/blob/0.68.0/src/vtegtk.cc#L844-847

@@ -16,7 +16,7 @@ jobs:
       matrix:
         version: [stable, unstable, development-target]
     container:
-      image: ghcr.io/elementary/docker:${{ matrix.version }}
+      image: ghcr.io/phyre/docker:${{ matrix.version }}
 
     steps:
     - uses: actions/checkout@v4

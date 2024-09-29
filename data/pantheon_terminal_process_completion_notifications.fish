@@ -4,7 +4,7 @@
 function pantheon-terminal-process-completion-callback --on-event fish_postexec --description "Notify Pantheon Terminal about task completion"
     set cmd_exit_status $status
     if status --is-interactive; and set --query PANTHEON_TERMINAL_ID
-        dbus-send --type=method_call --session --dest=io.phyre.terminal /io/elementary/terminal io.phyre.terminal.ProcessFinished string:$PANTHEON_TERMINAL_ID string:"$argv[1]" int32:$cmd_exit_status;
+        dbus-send --type=method_call --session --dest=io.phyre.terminal /io/phyre/terminal io.phyre.terminal.ProcessFinished string:$PANTHEON_TERMINAL_ID string:"$argv[1]" int32:$cmd_exit_status;
     end
 end
 

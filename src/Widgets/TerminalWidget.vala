@@ -82,7 +82,7 @@ namespace Terminal {
         public int default_size;
         const string SEND_PROCESS_FINISHED_BASH = "dbus-send --type=method_call " +
                                                   "--session --dest=io.phyre.terminal " +
-                                                  "/io/elementary/terminal " +
+                                                  "/io/phyre/terminal " +
                                                   "io.phyre.terminal.ProcessFinished " +
                                                   "string:$PANTHEON_TERMINAL_ID " +
                                                   "string:\"$(fc -nl -1 | cut -c 3-)\" " +

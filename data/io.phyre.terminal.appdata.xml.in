@@ -41,9 +41,9 @@
   </provides>
 
   <url type="homepage">https://phyreos.io/</url>
-  <url type="bugtracker">https://github.com/elementary/terminal/issues</url>
+  <url type="bugtracker">https://github.com/phyre/terminal/issues</url>
   <url type="donation">https://phyreos.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/terminal/discussions/categories/q-a</url>
+  <url type="help">https://github.com/phyre/terminal/discussions/categories/q-a</url>
   <url type="translate">https://l10n.phyreos.io/projects/terminal/</url>
 
   <developer id="org.elementaryos">
@@ -68,11 +68,11 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/terminal/issues/596">No terminal bell any more</issue>
-        <issue url="https://github.com/elementary/terminal/issues/728">Incomplete man page</issue>
-        <issue url="https://github.com/elementary/terminal/issues/736">When creating a new terminal window at a apecified working directory, an additional default tab is also opened</issue>
-        <issue url="https://github.com/elementary/terminal/issues/741">Tabs and tab-zooms not saved to settings continuously</issue>
-        <issue url="https://github.com/elementary/terminal/issues/752">The F11 shortcut key causes the maximize/unmaximize button to fail</issue>
+        <issue url="https://github.com/phyre/terminal/issues/596">No terminal bell any more</issue>
+        <issue url="https://github.com/phyre/terminal/issues/728">Incomplete man page</issue>
+        <issue url="https://github.com/phyre/terminal/issues/736">When creating a new terminal window at a apecified working directory, an additional default tab is also opened</issue>
+        <issue url="https://github.com/phyre/terminal/issues/741">Tabs and tab-zooms not saved to settings continuously</issue>
+        <issue url="https://github.com/phyre/terminal/issues/752">The F11 shortcut key causes the maximize/unmaximize button to fail</issue>
       </issues>
     </release>
 
@@ -86,10 +86,10 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/terminal/issues/625">Some characters are incorrectly escaped in links in Terminal</issue>
-        <issue url="https://github.com/elementary/terminal/issues/676">Keybinds for micro text editor do not work</issue>
-        <issue url="https://github.com/elementary/terminal/issues/681">Option to start minimized</issue>
-        <issue url="https://github.com/elementary/terminal/issues/696">Pressing the menu key doesn't refresh the context menu</issue>
+        <issue url="https://github.com/phyre/terminal/issues/625">Some characters are incorrectly escaped in links in Terminal</issue>
+        <issue url="https://github.com/phyre/terminal/issues/676">Keybinds for micro text editor do not work</issue>
+        <issue url="https://github.com/phyre/terminal/issues/681">Option to start minimized</issue>
+        <issue url="https://github.com/phyre/terminal/issues/696">Pressing the menu key doesn't refresh the context menu</issue>
       </issues>
     </release>
 
@@ -101,7 +101,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/terminal/issues/689">Notification displays timestamp when HISTTIMEFORMAT is set</issue>
+        <issue url="https://github.com/phyre/terminal/issues/689">Notification displays timestamp when HISTTIMEFORMAT is set</issue>
       </issues>
     </release>
 

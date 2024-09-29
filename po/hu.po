@@ -1,0 +1,526 @@
+# Hungarian translation for pantheon-terminal
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2024-09-14 21:16+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Language-Team: Hungarian <https://l10n.phyreos.io/projects/terminal/"
+"terminal/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2016-10-17 06:41+0000\n"
+
+#: src/Application.vala:34
+msgid "Show version"
+msgstr "Verzió megjelenítése"
+
+#. -n flag forces a new window
+#: src/Application.vala:36
+msgid "Open a new terminal window"
+msgstr "Új terminálablak megnyitása"
+
+#. -t flag forces a new tab
+#: src/Application.vala:38
+msgid "Open a new terminal tab at current working directory"
+msgstr "Új terminálablak megnyitása az éppen használt munkakönyvtárban"
+
+#. -w flag defines the working directory that the new tab/window uses
+#: src/Application.vala:40
+msgid "Set shell working directory"
+msgstr "A shell munkakönyvtárának beállítása"
+
+#. -e flag is used for running single strings as a command line
+#: src/Application.vala:42
+msgid "Run a program in terminal"
+msgstr "Programfuttatás terminálban"
+
+#. -m flag starts terminal in a minimized state
+#: src/Application.vala:44
+msgid "Open terminal in a minimized state"
+msgstr "A terminál megnyitása lekicsinyített állapotban"
+
+#. -x flag is used for using the rest of the command line in the new tab/window
+#: src/Application.vala:47
+msgid "Run remainder of line as a command in terminal"
+msgstr "A sor további részének futtatása terminálban parancsként"
+
+#: src/Application.vala:99
+msgid "[-- COMMAND…]"
+msgstr "[-- PARANCS…]"
+
+#: src/Application.vala:159
+msgid "Process completed"
+msgstr "Feladat befejezve"
+
+#: src/Application.vala:162
+msgid "Process exited with errors"
+msgstr "A feladat kilépett hibákkal"
+
+#: src/MainWindow.vala:168
+msgid "Show Search Bar"
+msgstr "Keresősáv"
+
+#. TerminalWidget actions
+#: src/MainWindow.vala:175
+msgid "Copy"
+msgstr "Másolás"
+
+#: src/MainWindow.vala:181
+msgid "Copy Last Output"
+msgstr "Legutóbbi kimenet másolása"
+
+#: src/MainWindow.vala:187
+msgid "Paste"
+msgstr "Beillesztés"
+
+#: src/MainWindow.vala:193
+msgid "Select All"
+msgstr "Összes kijelölése"
+
+#: src/MainWindow.vala:288
+msgid "Exit FullScreen"
+msgstr "Kilépés teljes képernyőről"
+
+#: src/MainWindow.vala:297 src/MainWindow.vala:1058
+msgid "Find…"
+msgstr "Keresés…"
+
+#: src/MainWindow.vala:304
+msgid "Settings"
+msgstr "Beállítások"
+
+#. Changing atributes has no effect after adding item to menu so remove and re-add.
+#. This item was added first
+#: src/MainWindow.vala:555
+#, c-format
+msgid "Show in %s"
+msgstr "Megjelenítés itt: %s"
+
+#: src/MainWindow.vala:557
+msgid "Default application"
+msgstr "Alapértelmezett alkalmazás"
+
+#: src/MainWindow.vala:1049
+msgid "Hide find bar"
+msgstr "Keresősáv elrejtése"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:43
+msgid "Color Preferences"
+msgstr "Színbeállítások"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:49
+msgid "Window style:"
+msgstr "Ablaktéma:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:57
+msgid "Light"
+msgstr "Világos"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:58
+#: src/Widgets/SettingsPopover.vala:102
+msgid "Dark"
+msgstr "Sötét"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:62
+msgid "Color Palette"
+msgstr "Színpaletta"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:72
+msgid "Reset to default"
+msgstr "Visszaállítás alapértelmezettre"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:75
+msgid "Black:"
+msgstr "Fekete:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:76
+msgid "Red:"
+msgstr "Piros:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:77
+msgid "Green:"
+msgstr "Zöld:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:78
+msgid "Yellow:"
+msgstr "Sárga:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:79
+msgid "Blue:"
+msgstr "Kék:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:80
+msgid "Magenta:"
+msgstr "Bíborvörös:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:81
+msgid "Cyan:"
+msgstr "Ciánkék:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:82
+msgid "Gray:"
+msgstr "Szürke:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:83
+msgid "White:"
+msgstr "Fehér:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:84
+msgid "Light Red:"
+msgstr "Világospiros:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:85
+msgid "Light Green:"
+msgstr "Világoszöld:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:86
+msgid "Light Yellow:"
+msgstr "Világossárga:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:87
+msgid "Light Blue:"
+msgstr "Világoskék:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:88
+msgid "Light Magenta:"
+msgstr "Világos bíborvörös:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:89
+msgid "Light Cyan:"
+msgstr "Világos ciánkék:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:90
+msgid "Light Gray:"
+msgstr "Világosszürke:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:91
+msgid "Background:"
+msgstr "Háttér:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:92
+msgid "Foreground:"
+msgstr "Előtér:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:93
+msgid "Cursor:"
+msgstr "Kurzor:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:190
+msgid "Close"
+msgstr "Bezárás"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:310
+msgid "Contrast is very low"
+msgstr "A kontraszt nagyon alacsony"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:313
+msgid "Contrast is low"
+msgstr "A kontraszt alacsony"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:316
+msgid "Contrast is good"
+msgstr "A kontraszt jó"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:319
+msgid "Contrast is high"
+msgstr "A kontraszt magas"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:26
+msgid "Are you sure you want to close this tab?"
+msgstr "Biztos, hogy be akarja zárni ezt a lapot?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:28
+msgid "There is an active process on this tab."
+msgstr "Ezen a lapon aktív folyamat van."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:29
+msgid "If you close it, the process will end."
+msgstr "Ha bezárja, a folyamat befejeződik."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:31
+#: src/Widgets/TerminalView.vala:211
+msgid "Close Tab"
+msgstr "Lap bezárása"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:38
+msgid "Are you sure you want to quit Terminal?"
+msgstr "Biztos, hogy ki akar lépni a terminálból?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:40
+msgid "There is an active process on this terminal."
+msgstr "Egy aktív folyamat fut ebben a terminálban."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:41
+msgid "If you quit Terminal, the process will end."
+msgstr "Ha bezárja a terminált, a folyamat befejeződik."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:43
+msgid "Quit Terminal"
+msgstr "Kilépés a terminálból"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:50
+msgid "Are you sure you want to reload this tab?"
+msgstr "Biztos, hogy újratölti ezt a lapot?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:52
+msgid ""
+"There is an active process on this tab. If you reload it, the process will "
+"end."
+msgstr ""
+"Egy aktív folyamat fut ebben a terminálban. Ha frissíti, be fog fejeződni."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:54
+msgid "Reload Tab"
+msgstr "Lap újratöltése"
+
+#: src/Dialogs/UnsafePasteDialog.vala:34
+msgid ""
+"Copying commands into Terminal can be dangerous. Be sure you understand what "
+"each part of the pasted text does before continuing."
+msgstr ""
+"Parancsok terminálba való másolása veszélyes lehet. Győződjön meg róla, hogy "
+"érti minden egyes részét a beillesztett szövegnek a folytatás előtt."
+
+#: src/Dialogs/UnsafePasteDialog.vala:36
+msgid "Show paste protection warnings"
+msgstr "Figyelmeztetés megjelenítése beillesztéskor"
+
+#: src/Dialogs/UnsafePasteDialog.vala:41
+msgid "Don't Paste"
+msgstr "Ne illessze be"
+
+#: src/Dialogs/UnsafePasteDialog.vala:43
+msgid "Paste Anyway"
+msgstr "Beillesztés mindenképpen"
+
+#: src/Widgets/SearchToolbar.vala:36
+msgid "Find"
+msgstr "Keresés"
+
+#: src/Widgets/SearchToolbar.vala:42
+msgid "Previous result"
+msgstr "Előző találat"
+
+#: src/Widgets/SearchToolbar.vala:49
+msgid "Next result"
+msgstr "Következő találat"
+
+#: src/Widgets/SearchToolbar.vala:58
+msgid "Cyclic search"
+msgstr "Ciklikus keresés"
+
+#: src/Widgets/SettingsPopover.vala:42
+msgid "Zoom out"
+msgstr "Kicsinyítés"
+
+#: src/Widgets/SettingsPopover.vala:50
+msgid "Default zoom level"
+msgstr "Alapértelmezett nagyítási szint"
+
+#: src/Widgets/SettingsPopover.vala:58
+msgid "Zoom in"
+msgstr "Nagyítás"
+
+#: src/Widgets/SettingsPopover.vala:86
+msgid "Follow System Style"
+msgstr "Rendszertéma követése"
+
+#: src/Widgets/SettingsPopover.vala:95
+msgid "High Contrast"
+msgstr "Magas kontraszt"
+
+#: src/Widgets/SettingsPopover.vala:98
+msgid "Solarized Light"
+msgstr "Szolarizált világos"
+
+#: src/Widgets/SettingsPopover.vala:108
+msgid "Custom"
+msgstr "Egyéni"
+
+#: src/Widgets/SettingsPopover.vala:114
+msgid "Natural Copy/Paste"
+msgstr "Természetes másolás/beillesztés"
+
+#: src/Widgets/SettingsPopover.vala:115
+msgid "Shortcuts don’t require Shift; may interfere with CLI apps"
+msgstr ""
+"A gyorsbillentyűk nem igénylik a Shift lenyomását; konzolos alkalmazásoknál "
+"problémát okozhat"
+
+#: src/Widgets/SettingsPopover.vala:119
+msgid "Event Alerts"
+msgstr "Eseményértesítések"
+
+#: src/Widgets/SettingsPopover.vala:120
+msgid ""
+"Notify for invalid input or multiple possible completions (subject to System "
+"Settings → Sound)"
+msgstr ""
+"Értesítés érvénytelen bemenetre vagy több lehetséges kiegészítésre "
+"(állítható a Rendszerbeállítások → Hang alatt)"
+
+#: src/Widgets/TerminalWidget.vala:28
+msgid "Terminal"
+msgstr "Terminál"
+
+#: src/Widgets/TerminalWidget.vala:494
+msgid "The pasted text may contain multiple commands"
+msgstr "A beillesztendő szöveg több parancsot is tartalmazhat"
+
+#: src/Widgets/TerminalWidget.vala:496
+msgid "The pasted text may be trying to gain administrative access"
+msgstr "A beillesztendő szöveg rendszergazdai jogokat szeretne szerezni"
+
+#: src/Widgets/TerminalView.vala:62
+msgid "New Tab"
+msgstr "Új lap"
+
+#: src/Widgets/TerminalView.vala:69
+msgid "Closed Tabs"
+msgstr "Bezárt lapok"
+
+#: src/Widgets/TerminalView.vala:209
+msgid "Close Tabs to the Right"
+msgstr "Jobbra lévő lapok bezárása"
+
+#: src/Widgets/TerminalView.vala:210
+msgid "Close Other Tabs"
+msgstr "A többi lap bezárása"
+
+#: src/Widgets/TerminalView.vala:214
+msgid "Open in New Window"
+msgstr "Megnyitás új ablakban"
+
+#: src/Widgets/TerminalView.vala:215
+msgid "Duplicate Tab"
+msgstr "Lap megkettőzése"
+
+#: src/Widgets/TerminalView.vala:218
+msgid "Reload"
+msgstr "Újratöltés"
+
+#: src/Widgets/ZoomOverlay.vala:15
+#, c-format
+msgid "Zoom: %.0f%%"
+msgstr "Nagyítás: %.0f%%"
+
+#~ msgid "Open a new terminal tab"
+#~ msgstr "Új lap megnyitása"
+
+#~ msgid "Show help"
+#~ msgstr "Súgó megjelenítése"
+
+#~ msgid "This command is asking for Administrative access to your computer"
+#~ msgstr "Ez a parancs rendszergazdai hozzáférést igényel a számítógépéhez"
+
+#~ msgid "Copying commands into the Terminal can be dangerous."
+#~ msgstr "Parancsok másolása a Terminálba veszélyes lehet."
+
+#~ msgid "Be sure you understand what each part of this command does."
+#~ msgstr "Győződjön meg róla, hogy érti, hogy a parancs részei mit csinálnak."
+
+#~ msgid "Task finished"
+#~ msgstr "Feladat kész"
+
+#~ msgid "Style"
+#~ msgstr "Stílus"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Sötét solarizált"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Do not show this dialog again"
+#~ msgstr "Ne jelenítse meg újra ezt a párbeszédablakot"
+
+#~ msgid "About Terminal"
+#~ msgstr "A Terminál névjegye"
+
+#~ msgid "Use the command line"
+#~ msgstr "Parancssor használata"
+
+#~ msgid "New Root Tab"
+#~ msgstr "Új ablak rendszergazdaként"
+
+#~ msgid "Open Terminal Here"
+#~ msgstr "Terminál megnyitása itt"
+
+#~ msgid "Create a new tab"
+#~ msgstr "Új lap létrehozása"
+
+#~ msgid "Copy the selected text"
+#~ msgstr "A kiválasztott szöveg másolása"
+
+#~ msgid "Search for a given string in the terminal"
+#~ msgstr "Szöveg keresése a terminálban"
+
+#~ msgid "Paste some text"
+#~ msgstr "Szöveg beillesztése"
+
+#~ msgid "Select all the text in the terminal"
+#~ msgstr "Az összes szöveg kijelölése a terminálban"
+
+#~ msgid "About"
+#~ msgstr "Névjegy"
+
+#~ msgid "Show about window"
+#~ msgstr "Névjegy megjelenítése"
+
+#~ msgid "Next Tab"
+#~ msgstr "Következő lap"
+
+#~ msgid "Go to next tab"
+#~ msgstr "Ugrás a következő lapra"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Előző lap"
+
+#~ msgid "Go to previous tab"
+#~ msgstr "Ugrás az előző lapra"
+
+#~ msgid "Toggle/Untoggle fullscreen"
+#~ msgstr "Teljes képernyős nézetváltás"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  András Bognár https://launchpad.net/~bognarandras-deactivatedaccount1\n"
+#~ "  Bence Lukács https://launchpad.net/~lukacs-bence1\n"
+#~ "  Dono https://launchpad.net/~laszlo-bence-27\n"
+#~ "  Laszlo Espadas https://launchpad.net/~kardi-web\n"
+#~ "  Mark Lutring https://launchpad.net/~marcus-elitemail\n"
+#~ "  Maxwell Barvian https://launchpad.net/~mbarvian-deactivatedaccount\n"
+#~ "  Papp Ferenc https://launchpad.net/~pappfer\n"
+#~ "  Szentiványi András https://launchpad.net/~szentivanyi-andras92"
+
+#~ msgid "Print version info and exit"
+#~ msgstr "Verzióinformáció kiírása és kilépés"
+
+#~ msgid "Show about dialog"
+#~ msgstr "Névjegy megjelenítése"
+
+#~ msgid "Open a new tab"
+#~ msgstr "Új lap megnyitása"
+
+#~ msgid "Set shell at launch"
+#~ msgstr "Parancsértelmező beállítása indításnál"
+
+#~ msgid "New Root Window"
+#~ msgstr "Új root ablak"
+
+#~ msgid "If you close this tab, this process will end."
+#~ msgstr "Ha bezárja a lapot, a folyamat véget ér."
+
+#~ msgid "If you quit Terminal, this process will end."
+#~ msgstr "Ha kilép a terminálból, a folyamat véget ér."

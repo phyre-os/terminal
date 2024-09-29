@@ -1,0 +1,530 @@
+# Ukrainian translation for pantheon-terminal
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2024-09-04 14:43+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Language-Team: Ukrainian <https://l10n.phyreos.io/projects/terminal/"
+"terminal/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2016-10-17 06:41+0000\n"
+
+#: src/Application.vala:34
+msgid "Show version"
+msgstr "Показати версію"
+
+#. -n flag forces a new window
+#: src/Application.vala:36
+msgid "Open a new terminal window"
+msgstr "Відкрити нове вікно терміналу"
+
+#. -t flag forces a new tab
+#: src/Application.vala:38
+msgid "Open a new terminal tab at current working directory"
+msgstr "Відкрити нову вкладку термінала в поточній робочій директорії"
+
+#. -w flag defines the working directory that the new tab/window uses
+#: src/Application.vala:40
+msgid "Set shell working directory"
+msgstr "Встановити робочу теку для оболонки"
+
+#. -e flag is used for running single strings as a command line
+#: src/Application.vala:42
+msgid "Run a program in terminal"
+msgstr "Запустити програму в терміналі"
+
+#. -m flag starts terminal in a minimized state
+#: src/Application.vala:44
+msgid "Open terminal in a minimized state"
+msgstr "Відкрити термінал у згорнутому стані"
+
+#. -x flag is used for using the rest of the command line in the new tab/window
+#: src/Application.vala:47
+msgid "Run remainder of line as a command in terminal"
+msgstr "Запустити решту рядка як команду в терміналі"
+
+#: src/Application.vala:99
+msgid "[-- COMMAND…]"
+msgstr "[-- COMMAND…]"
+
+#: src/Application.vala:159
+msgid "Process completed"
+msgstr "Процес завершено"
+
+#: src/Application.vala:162
+msgid "Process exited with errors"
+msgstr "Процес завершено з помилками"
+
+#: src/MainWindow.vala:168
+msgid "Show Search Bar"
+msgstr "Показувати панель пошуку"
+
+#. TerminalWidget actions
+#: src/MainWindow.vala:175
+msgid "Copy"
+msgstr "Копіювати"
+
+#: src/MainWindow.vala:181
+msgid "Copy Last Output"
+msgstr "Копіювати останній вивід"
+
+#: src/MainWindow.vala:187
+msgid "Paste"
+msgstr "Вставити"
+
+#: src/MainWindow.vala:193
+msgid "Select All"
+msgstr "Виділити все"
+
+#: src/MainWindow.vala:288
+msgid "Exit FullScreen"
+msgstr "Вийти з повноекранного режиму"
+
+#: src/MainWindow.vala:297 src/MainWindow.vala:1058
+msgid "Find…"
+msgstr "Пошук…"
+
+#: src/MainWindow.vala:304
+msgid "Settings"
+msgstr "Налаштування"
+
+#. Changing atributes has no effect after adding item to menu so remove and re-add.
+#. This item was added first
+#: src/MainWindow.vala:555
+#, c-format
+msgid "Show in %s"
+msgstr "Показати в %s"
+
+#: src/MainWindow.vala:557
+msgid "Default application"
+msgstr "Типовий застосунок"
+
+#: src/MainWindow.vala:1049
+msgid "Hide find bar"
+msgstr "Сховати панель пошуку"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:43
+msgid "Color Preferences"
+msgstr "Налаштування кольору"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:49
+msgid "Window style:"
+msgstr "Стиль вікна:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:57
+msgid "Light"
+msgstr "Світлий"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:58
+#: src/Widgets/SettingsPopover.vala:102
+msgid "Dark"
+msgstr "Темна"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:62
+msgid "Color Palette"
+msgstr "Палітра кольорів"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:72
+msgid "Reset to default"
+msgstr "Відновити типові"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:75
+msgid "Black:"
+msgstr "Чорний:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:76
+msgid "Red:"
+msgstr "Червоний:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:77
+msgid "Green:"
+msgstr "Зелений:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:78
+msgid "Yellow:"
+msgstr "Жовтий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:79
+msgid "Blue:"
+msgstr "Блакитний:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:80
+msgid "Magenta:"
+msgstr "Маджента:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:81
+msgid "Cyan:"
+msgstr "Ціановий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:82
+msgid "Gray:"
+msgstr "Сірий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:83
+msgid "White:"
+msgstr "Білий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:84
+msgid "Light Red:"
+msgstr "Світло-червоний:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:85
+msgid "Light Green:"
+msgstr "Світло-зелений:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:86
+msgid "Light Yellow:"
+msgstr "Світло-жовтий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:87
+msgid "Light Blue:"
+msgstr "Світло-синій:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:88
+msgid "Light Magenta:"
+msgstr "Маджента світла:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:89
+msgid "Light Cyan:"
+msgstr "Ціан світлий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:90
+msgid "Light Gray:"
+msgstr "Світло-сірий:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:91
+msgid "Background:"
+msgstr "Тло:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:92
+msgid "Foreground:"
+msgstr "Основний:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:93
+msgid "Cursor:"
+msgstr "Курсор:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:190
+msgid "Close"
+msgstr "Закрити"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:310
+msgid "Contrast is very low"
+msgstr "Контрастність дуже низька"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:313
+msgid "Contrast is low"
+msgstr "Низька контрастність"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:316
+msgid "Contrast is good"
+msgstr "Хороша контрастність"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:319
+msgid "Contrast is high"
+msgstr "Контрастність висока"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:26
+msgid "Are you sure you want to close this tab?"
+msgstr "Ви впевнені, що бажаєте закрити цю вкладку?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:28
+msgid "There is an active process on this tab."
+msgstr "У вкладці є активний процес."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:29
+msgid "If you close it, the process will end."
+msgstr "Якщо ви закриєте цю вкладку, то процес буде завершено."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:31
+#: src/Widgets/TerminalView.vala:211
+msgid "Close Tab"
+msgstr "Закрити вкладку"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:38
+msgid "Are you sure you want to quit Terminal?"
+msgstr "Ви впевнені, що бажаєте вийти з Терміналу?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:40
+msgid "There is an active process on this terminal."
+msgstr "У терміналі є активний процес."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:41
+msgid "If you quit Terminal, the process will end."
+msgstr "Якщо ви закриєте Термінал , то процес завершиться."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:43
+msgid "Quit Terminal"
+msgstr "Вийти з Терміналу"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:50
+msgid "Are you sure you want to reload this tab?"
+msgstr "Ви впевнені, що хочете перезавантажити цю вкладку?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:52
+msgid ""
+"There is an active process on this tab. If you reload it, the process will "
+"end."
+msgstr ""
+"На цій вкладці терміналу є активний процес. Якщо ви перезавантажите її, "
+"процес завершиться."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:54
+msgid "Reload Tab"
+msgstr "Перезавантажити вкладку"
+
+#: src/Dialogs/UnsafePasteDialog.vala:34
+msgid ""
+"Copying commands into Terminal can be dangerous. Be sure you understand what "
+"each part of the pasted text does before continuing."
+msgstr ""
+"Копіювання команд до Термінала може бути небезпечним. Впевніться, що ви "
+"розумієте, що робить кожна з частин вставленого тексту перед продовженням."
+
+#: src/Dialogs/UnsafePasteDialog.vala:36
+msgid "Show paste protection warnings"
+msgstr "Показувати попередження про небезпеку вставлення"
+
+#: src/Dialogs/UnsafePasteDialog.vala:41
+msgid "Don't Paste"
+msgstr "Не вставляти"
+
+#: src/Dialogs/UnsafePasteDialog.vala:43
+msgid "Paste Anyway"
+msgstr "Все одно вставити"
+
+#: src/Widgets/SearchToolbar.vala:36
+msgid "Find"
+msgstr "Пошук"
+
+#: src/Widgets/SearchToolbar.vala:42
+msgid "Previous result"
+msgstr "Попередній результат"
+
+#: src/Widgets/SearchToolbar.vala:49
+msgid "Next result"
+msgstr "Наступний результат"
+
+#: src/Widgets/SearchToolbar.vala:58
+msgid "Cyclic search"
+msgstr "Циклічний пошук"
+
+#: src/Widgets/SettingsPopover.vala:42
+msgid "Zoom out"
+msgstr "Зменшити"
+
+#: src/Widgets/SettingsPopover.vala:50
+msgid "Default zoom level"
+msgstr "Типовий масштаб"
+
+#: src/Widgets/SettingsPopover.vala:58
+msgid "Zoom in"
+msgstr "Збільшити"
+
+#: src/Widgets/SettingsPopover.vala:86
+msgid "Follow System Style"
+msgstr "Використовувати системний стиль"
+
+#: src/Widgets/SettingsPopover.vala:95
+msgid "High Contrast"
+msgstr "Високий контраст"
+
+#: src/Widgets/SettingsPopover.vala:98
+msgid "Solarized Light"
+msgstr "Solarized світла"
+
+#: src/Widgets/SettingsPopover.vala:108
+msgid "Custom"
+msgstr "Власна"
+
+#: src/Widgets/SettingsPopover.vala:114
+msgid "Natural Copy/Paste"
+msgstr "Звичайне копіювання/вставляння"
+
+#: src/Widgets/SettingsPopover.vala:115
+msgid "Shortcuts don’t require Shift; may interfere with CLI apps"
+msgstr ""
+"Скорочення не потребують використання клавіші Shift; може вплинути на "
+"програми CLI"
+
+#: src/Widgets/SettingsPopover.vala:119
+msgid "Event Alerts"
+msgstr "Сповіщення про події"
+
+#: src/Widgets/SettingsPopover.vala:120
+msgid ""
+"Notify for invalid input or multiple possible completions (subject to System "
+"Settings → Sound)"
+msgstr ""
+"Сповіщати про хибне введення або кілька можливих завершень (залежить від "
+"Налаштування системи → Звук)"
+
+#: src/Widgets/TerminalWidget.vala:28
+msgid "Terminal"
+msgstr "Термінал"
+
+#: src/Widgets/TerminalWidget.vala:494
+msgid "The pasted text may contain multiple commands"
+msgstr "Вставлений текст може містити кілька команд"
+
+#: src/Widgets/TerminalWidget.vala:496
+msgid "The pasted text may be trying to gain administrative access"
+msgstr ""
+"Вставлений текст може намагатися отримати доступ до прав адміністратора"
+
+#: src/Widgets/TerminalView.vala:62
+msgid "New Tab"
+msgstr "Нова вкладка"
+
+#: src/Widgets/TerminalView.vala:69
+msgid "Closed Tabs"
+msgstr "Закриті вкладки"
+
+#: src/Widgets/TerminalView.vala:209
+msgid "Close Tabs to the Right"
+msgstr "Закрити вкладки праворуч"
+
+#: src/Widgets/TerminalView.vala:210
+msgid "Close Other Tabs"
+msgstr "Закрити інші вкладки"
+
+#: src/Widgets/TerminalView.vala:214
+msgid "Open in New Window"
+msgstr "Відкрити у новому вікні"
+
+#: src/Widgets/TerminalView.vala:215
+msgid "Duplicate Tab"
+msgstr "Дублювати вкладку"
+
+#: src/Widgets/TerminalView.vala:218
+msgid "Reload"
+msgstr "Перезавантажити"
+
+#: src/Widgets/ZoomOverlay.vala:15
+#, c-format
+msgid "Zoom: %.0f%%"
+msgstr "Масштаб: %.0f%%"
+
+#~ msgid "Open a new terminal tab"
+#~ msgstr "Відкрити нову вкладку терміналу"
+
+#~ msgid "Show help"
+#~ msgstr "Показати довідку"
+
+#~ msgid "This command is asking for Administrative access to your computer"
+#~ msgstr ""
+#~ "Ця команда запитує права доступу адміністратора до вашого комп’ютера"
+
+#~ msgid "Copying commands into the Terminal can be dangerous."
+#~ msgstr "Копіювання команд до терміналу може бути небезпечним."
+
+#~ msgid "Be sure you understand what each part of this command does."
+#~ msgstr ""
+#~ "Переконайтеся, що ви розумієте, що робить кожна частина цієї команди."
+
+#~ msgid "Task finished"
+#~ msgstr "Завдання завершено"
+
+#~ msgid "Show in File Browser"
+#~ msgstr "Показати у файловому переглядачі"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасувати"
+
+#~ msgid "About Terminal"
+#~ msgstr "Про Термінал"
+
+#~ msgid "Use the command line"
+#~ msgstr "Використати командний рядок"
+
+#~ msgid "New Root Tab"
+#~ msgstr "Нова вкладка від імені Адміністратора"
+
+#~ msgid "Open Terminal Here"
+#~ msgstr "Відкрити термінал тут"
+
+#~ msgid "Create a new tab"
+#~ msgstr "Створити нову вкладку"
+
+#~ msgid "Copy the selected text"
+#~ msgstr "Копіювати виділений текст"
+
+#~ msgid "Search for a given string in the terminal"
+#~ msgstr "Пошук даного рядка в терміналі"
+
+#~ msgid "Paste some text"
+#~ msgstr "Вставити деякий текст"
+
+#~ msgid "Select all the text in the terminal"
+#~ msgstr "Виділити весь текст в терміналі"
+
+#~ msgid "About"
+#~ msgstr "Про програму"
+
+#~ msgid "Show about window"
+#~ msgstr "Показати інформацію про програму"
+
+#~ msgid "Next Tab"
+#~ msgstr "Наступна вкладка"
+
+#~ msgid "Go to next tab"
+#~ msgstr "Перейти до наступної вкладки"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Попередня вкладка"
+
+#~ msgid "Go to previous tab"
+#~ msgstr "Перейти до попередньої вкладки"
+
+#~ msgid "Toggle/Untoggle fullscreen"
+#~ msgstr "Ввімкнути/вимкнути повноекранний режим"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Bogdan Lisnenko https://launchpad.net/~lem8r\n"
+#~ "  Max_ym https://launchpad.net/~kontact-cat\n"
+#~ "  Maxwell Barvian https://launchpad.net/~mbarvian-deactivatedaccount\n"
+#~ "  NetForHack https://launchpad.net/~netforhack\n"
+#~ "  Roman https://launchpad.net/~iimperatorr\n"
+#~ "  Senpos https://launchpad.net/~kovalchuk-evgeny\n"
+#~ "  Sergey Kornienko https://launchpad.net/~b0nzo-deb\n"
+#~ "  Sergii Cynailo https://launchpad.net/~funeral20\n"
+#~ "  Serhiy Vinichuk https://launchpad.net/~serhiyvinichuk\n"
+#~ "  lord https://launchpad.net/~byshovetc\n"
+#~ "  neiron13 https://launchpad.net/~heneral\n"
+#~ "  shyn https://launchpad.net/~shyn\n"
+#~ "  sunsays https://launchpad.net/~sunsays"
+
+#~ msgid "Print version info and exit"
+#~ msgstr "Показати інформацію про версію та вийти"
+
+#~ msgid "Show about dialog"
+#~ msgstr "Показати діалог інформації про програму"
+
+#~ msgid "Open a new tab"
+#~ msgstr "Відкрити нову вкладку"
+
+#~ msgid "Set shell at launch"
+#~ msgstr "Обрати командний інтерпретатор при старті"
+
+#~ msgid "If you quit Terminal, this process will end."
+#~ msgstr "Якщо ви вийдете з Терміналу, процес буде завершено."
+
+#~ msgid "If you close this tab, this process will end."
+#~ msgstr "Якщо ви закриєте цю вкладку, процес буде завершено."
+
+#~ msgid "New Root Window"
+#~ msgstr "Нове корінне вікно"

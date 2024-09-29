@@ -1,0 +1,55 @@
+/*
+* Copyright 2017-2020 Phyre Ltd. (https://phyreos.io)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License version 3, as published by the Free Software Foundation.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*/
+
+/* Make sure terminal background can use colors with alpha */
+.terminal-window.background {
+    background-color: transparent;
+}
+
+.terminal-window.background.maximized,
+.terminal-window.background.tiled {
+    background-color: #000;
+}
+
+vte-terminal {
+    padding: 0 9px;
+}
+
+.color-button radio {
+    padding: 10px;
+    -gtk-icon-shadow: none;
+}
+
+.color-button.custom radio {
+    -gtk-icon-source: -gtk-icontheme("list-add-symbolic");
+}
+
+.color-button.custom radio:checked {
+    -gtk-icon-source: -gtk-icontheme("check-active-symbolic");
+}
+
+/* Workaround Hdy.Tabbar transparent area. Remove during GTK 4 port */
+tabbar .box {
+    margin: 0;
+    padding-top: 2px;
+}
+
+/* Workaround for context menu styles. Remove during GTK4 port */
+menu {
+    font: initial;
+}

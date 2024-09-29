@@ -1,0 +1,325 @@
+# German translation for pantheon-terminal
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2022-07-15 21:07+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://l10n.phyreos.io/projects/terminal/extra/de/"
+">\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2016-10-17 06:41+0000\n"
+
+#: data/io.phyre.terminal.appdata.xml.in:10
+#: data/io.phyre.terminal.desktop.in:3
+#: data/io.phyre.terminal.desktop.in:4
+msgid "Terminal"
+msgstr "Terminal"
+
+#: data/io.phyre.terminal.appdata.xml.in:11
+#: data/io.phyre.terminal.desktop.in:5
+msgid "Use the command line"
+msgstr "Befehlszeile verwenden"
+
+#: data/io.phyre.terminal.appdata.xml.in:13
+msgid ""
+"Terminal is a terminal emulator application for accessing a UNIX shell "
+"environment which can be used to run programs available on your system."
+msgstr ""
+"Terminal ist eine Terminalemulationsanwendung, die Ihnen den Zugriff auf "
+"eine UNIX-Shell-Umgebung ermöglicht; damit können im System installierte "
+"Programme ausgeführt werden."
+
+#: data/io.phyre.terminal.appdata.xml.in:58
+#: data/io.phyre.terminal.appdata.xml.in:110
+#: data/io.phyre.terminal.appdata.xml.in:129
+msgid "New features:"
+msgstr "Neue Funktionen:"
+
+#: data/io.phyre.terminal.appdata.xml.in:60
+msgid "Allow switching event alerts on and off in the app menu"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:61
+msgid "Save tabs and zooms to the saved state settings when they change"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:63
+#: data/io.phyre.terminal.appdata.xml.in:81
+#: data/io.phyre.terminal.appdata.xml.in:98
+#: data/io.phyre.terminal.appdata.xml.in:119
+#: data/io.phyre.terminal.appdata.xml.in:138
+msgid "Other updates:"
+msgstr "Weitere Aktualisierungen:"
+
+#: data/io.phyre.terminal.appdata.xml.in:65
+msgid "Document missing options in the man page"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:66
+msgid "Suppress unwanted default tab when opening a new window"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:67
+#: data/io.phyre.terminal.appdata.xml.in:85
+#: data/io.phyre.terminal.appdata.xml.in:100
+#: data/io.phyre.terminal.appdata.xml.in:121
+#: data/io.phyre.terminal.appdata.xml.in:140
+msgid "Translation updates"
+msgstr "Übersetzungen aktualisiert"
+
+#: data/io.phyre.terminal.appdata.xml.in:83
+msgid ""
+"Add shortcuts \"Ctrl + PageUp\" and \"Ctrl + PageDown\" to switch between "
+"tabs"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:84
+msgid "Properly unexport the DBus Interface on Exit"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:112
+msgid "Option to follow system dark style preference"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:113
+#, fuzzy
+#| msgid "Validate custom palette"
+msgid "Create a custom color palette"
+msgstr "Überprüfen Sie die benutzerdefinierte Palette"
+
+#: data/io.phyre.terminal.appdata.xml.in:115
+#: data/io.phyre.terminal.appdata.xml.in:134
+msgid "Fixes:"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:117
+msgid ""
+"Default styles are fully opaque and updated to the latest upstream values "
+"from Solarized for improved legibility"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:122
+msgid "Performance improvements"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:131
+msgid "Switch tabs with Alt + 1-9"
+msgstr "Tabs mit Alt + 1-9 wechseln"
+
+#: data/io.phyre.terminal.appdata.xml.in:132
+msgid "Quit with Ctrl + Shift + Q"
+msgstr "Mit Strg + Umschalt + Q beenden"
+
+#: data/io.phyre.terminal.appdata.xml.in:136
+msgid "Fix build on OS 7"
+msgstr ""
+
+#: data/io.phyre.terminal.desktop.in:13
+msgid "command;prompt;cmd;commandline;run;"
+msgstr ""
+"command;cmd;commandline;run;execute;befehl;prompt;befehlszeile;ausführen;"
+
+#: data/io.phyre.terminal.desktop.in:18
+msgid "New Window"
+msgstr "Neues Fenster"
+
+#: data/io.phyre.terminal.desktop.in:22
+msgid "New Root Tab"
+msgstr "Neuen Tab mit Root-Rechten öffnen"
+
+#~ msgid "Use XTerm title for window title if available"
+#~ msgstr "XTerm-Titel als Fenstertitel verwenden, falls vorhanden"
+
+#~ msgid "Phyre Ltd."
+#~ msgstr "Phyre Ltd."
+
+#~ msgid "Move tabs with the shortcut Ctrl + Alt + ←/→"
+#~ msgstr "Tabs verschieben Sie mit der Tastenkombination Strg + Alt + ←/→"
+
+#~ msgid "Switch tabs with the shortcuts Ctrl + Tab and Ctrl + Shift + Tab"
+#~ msgstr ""
+#~ "Zwischen den Fenstern mit den Tastaturkürzeln Strg + Tab und Strg + "
+#~ "Umschalt + Tab wechseln"
+
+#~ msgid "Zoom levels are now remembered per-tab"
+#~ msgstr "Zoomstufen werden jetzt pro Tab gespeichert"
+
+#~ msgid "Also warn about multi-line pastes"
+#~ msgstr "Auch vor dem Einfügen mehrerer Zeilen warnen"
+
+#~ msgid "Show text details in unsafe paste dialogs"
+#~ msgstr "Text in nicht sicheren Einfügedialogen anzeigen"
+
+#~ msgid "Open Link option when secondary clicking"
+#~ msgstr "Öffne Verknüpfungsoption bei Sekundärklick"
+
+#~ msgid ""
+#~ "Reload tabs in the context menu or with the shortcut Ctrl + Shift + R"
+#~ msgstr ""
+#~ "Aktualisiere Tabs im Kontextmenü oder mit dem Tastenkürzel Strg + Shift + "
+#~ "R"
+
+#~ msgid "Notifications indicate if a process exited with errors or not"
+#~ msgstr ""
+#~ "Benachrichtigungen zeigen nun an, ob ein Prozess mit oder ohne Fehler "
+#~ "beendet wurde"
+
+#~ msgid "Show keyboard shortcuts in tab context menus"
+#~ msgstr "Tastaturkürzel im Tab-Kontextmenüs werden nun angezeigt"
+
+#~ msgid ""
+#~ "Fix an issue with keyboard shortcuts not activating the first time "
+#~ "they're pressed"
+#~ msgstr ""
+#~ "Behebt ein Problem das dazu führte, dass Tastaturkürzel nicht beim ersten "
+#~ "Drücken aktiviert wurden"
+
+#~ msgid "Avoid losing focus when closing background tabs"
+#~ msgstr ""
+#~ "Verhindert, dass der Focus verloren wird, wenn Tabs im Hintergrund "
+#~ "geschlossen werden"
+
+#~ msgid "Validate custom palette"
+#~ msgstr "Überprüfen Sie die benutzerdefinierte Palette"
+
+#~ msgid "Add commandline option for New Tab (-t)"
+#~ msgstr "Fügt eine Kommandozeilen-Option für einen neuen Tab hinzu (-t)"
+
+#~ msgid "Fix URL selection"
+#~ msgstr "Korrigiert die URL-Auswahl"
+
+#~ msgid "Add commandline option for \"Show version\" (-v, --version)"
+#~ msgstr ""
+#~ "Fügt eine Kommandozeilen-Option für \"Zeige Version\" hinzu (-v, --"
+#~ "version)"
+
+#~ msgid "Add commandline option for New Window (-n)"
+#~ msgstr "Fügt eine Kommandozeilen-Option für neues Fenster hinzu (-n)"
+
+#~ msgid "Prevent duplicate tab on startup"
+#~ msgstr "Doppelte Tabs beim Starten verhindern"
+
+#~ msgid "Prevent unnecessary Home tab on startup"
+#~ msgstr "Unnötigen Tab \"Home\" beim Starten verhindern"
+
+#~ msgid "Turn Natural Copy/Paste on or off in the Settings menu"
+#~ msgstr ""
+#~ "Schalten Sie Natürliches Kopieren/Einfügen im Einstellungsmenü ein oder "
+#~ "aus"
+
+#~ msgid "Zoom with Ctrl + Scroll"
+#~ msgstr "Zoom mit Strg + Scrollen"
+
+#~ msgid "Include sudo password prompt when copying last output"
+#~ msgstr "sudo-Passwortabfrage beim Kopieren der letzten Ausgabe einbeziehen"
+
+#~ msgid "Apply font changes without restarting"
+#~ msgstr "Ändern der Schriftart ohne Neustart übernehmen"
+
+#~ msgid "Don't remember tabs when History is disabled in System Settings"
+#~ msgstr ""
+#~ "Tabs werden nicht mehr gespeichert, wenn der Verlauf in den "
+#~ "Systemeinstellungen deaktiviert ist"
+
+#~ msgid "Show keyboard shortcuts in the secondary-click menu"
+#~ msgstr "Tastaturkürzel im Kontextmenü werden nun angezeigt"
+
+#~ msgid "Middle-click paste now properly follows System Settings"
+#~ msgstr ""
+#~ "Das Einfügen per Mittelklick folgt nun korrekt den Systemeinstellungen"
+
+#~ msgid "Shift + Control + D to duplicate tabs"
+#~ msgstr "Shift + Strg + D um Tabs zu duplizieren"
+
+#~ msgid "Use neutral colors for the dark style scheme"
+#~ msgstr "Neutrale Farben für das dunkle Farbschema werden nun verwendet"
+
+#~ msgid "Slightly pad text from the edge of the window"
+#~ msgstr "Text ein wenig vom Fensterrand absetzen"
+
+#~ msgid "Pressing the Menu key now opens the context menu"
+#~ msgstr "Das Drücken der Menü-Taste öffnet nun das Kontextmenü"
+
+#~ msgid "Store state with GSettings"
+#~ msgstr "Status mit GSettings speichern"
+
+#~ msgid "Support Ctrl+Equal key combo to zoom in"
+#~ msgstr ""
+#~ "Unterstützt nun zusätzlich die Tastenkombination Strg + = um die Ansicht "
+#~ "zu vergrößern"
+
+#~ msgid "Fix a wrong foreground process response code"
+#~ msgstr "Behebt einen falschen Rückgabewert für einen Vordergrundprozess"
+
+#~ msgid "Return focus after popover menu closes"
+#~ msgstr "Den Fokus wiederherstellen, wenn das Popover-Menü geschlossen wird"
+
+#~ msgid "Prevent search and style buttons from receiving focus"
+#~ msgstr "Verhindern, dass Such- und Stil-Knöpfe fokussiert werden"
+
+#~ msgid "Hide the cursor while typing"
+#~ msgstr "Verstecken des Cursor während der Eingabe"
+
+#~ msgid "Fix erratic search text highlightning behavior"
+#~ msgstr "Korrigiert das fehlerhafte Hervorhebungsverhalten von Suchtext"
+
+#~ msgid "Support -h flag for help"
+#~ msgstr "Unterstützt -h Option für Hilfe"
+
+#~ msgid "Disable audible bell"
+#~ msgstr "Deaktivierung von Sounds"
+
+#~ msgid "Add Alt+↑ action to scroll to last command"
+#~ msgstr "Drücke Alt + ↑ um zum letzten Befehl zu blättern"
+
+#~ msgid "Add Alt+c action to copy last output"
+#~ msgstr "Drücke Alt + c um die letzte Ausgabe zu kopieren"
+
+#~ msgid "Add accels to tooltips"
+#~ msgstr "Hinweise zu Tastenkürzel in den Tooltips hinzugefügt"
+
+#~ msgid "Fix zsh notifications"
+#~ msgstr "Korrektur der zsh Benachrichtigungen"
+
+#~ msgid "Conditional ctrl+g shortcut to deconflict with emacs"
+#~ msgstr "Bedingter Ctrl+g Tastenkürzel zur Konfliktlösung mit Emacs"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Kleinere Fehlerbehebungen"
+
+#~ msgid "FISH integration fixes"
+#~ msgstr "Fehlerkorrekturen bei der FISH-Integration"
+
+#~ msgid "Theme preference menu"
+#~ msgstr "Theme Einstellungsmenü"
+
+#~ msgid "Zoom level controls"
+#~ msgstr "Steuerung der Zoomstufe"
+
+#~ msgid "Allow tab to close after typing exit at the commandline"
+#~ msgstr ""
+#~ "Erlauben das Schließen des Tabs nach der Eingabe von exit in der "
+#~ "Kommandozeile"
+
+#~ msgid "Fix copying URLs to clipboard"
+#~ msgstr "Korrektur des Kopierens von URLs in die Zwischenablage"
+
+#~ msgid "Fix appstream date format"
+#~ msgstr "Korrektur des Datumsformats für Appstream"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
+#~ msgid "About Terminal"
+#~ msgstr "Info zu Terminal"

@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Terminal
+GenericName=Terminal
+Comment=Use the command line
+TryExec=io.phyre.terminal
+Exec=io.phyre.terminal
+# TRANSLATORS: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=utilities-terminal
+Type=Application
+Categories=GNOME;GTK;System;TerminalEmulator;
+StartupNotify=true
+Keywords=command;prompt;cmd;commandline;run;
+X-GNOME-UsesNotifications=true
+Actions=NewWindow;NewRootWindow;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=io.phyre.terminal -n
+
+[Desktop Action NewRootWindow]
+Name=New Root Tab
+Exec=io.phyre.terminal -e "sudo -s"

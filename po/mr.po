@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2021-03-20 21:29+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.phyreos.io/projects/terminal/"
+"terminal/mr/>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#: src/Application.vala:34
+msgid "Show version"
+msgstr "आवृत्ती दाखवा"
+
+#. -n flag forces a new window
+#: src/Application.vala:36
+msgid "Open a new terminal window"
+msgstr "नवीन टर्मिनल विंडो उघडा"
+
+#. -t flag forces a new tab
+#: src/Application.vala:38
+#, fuzzy
+#| msgid "Open a new terminal window"
+msgid "Open a new terminal tab at current working directory"
+msgstr "नवीन टर्मिनल विंडो उघडा"
+
+#. -w flag defines the working directory that the new tab/window uses
+#: src/Application.vala:40
+msgid "Set shell working directory"
+msgstr "शेल वर्किंग डिरेक्टरी सेट करा"
+
+#. -e flag is used for running single strings as a command line
+#: src/Application.vala:42
+#, fuzzy
+#| msgid "Run a program in terminal"
+msgid "Run a program in terminal"
+msgstr "टर्मिनल मध्ये चालवा"
+
+#. -m flag starts terminal in a minimized state
+#: src/Application.vala:44
+msgid "Open terminal in a minimized state"
+msgstr ""
+
+#. -x flag is used for using the rest of the command line in the new tab/window
+#: src/Application.vala:47
+#, fuzzy
+#| msgid ""
+#| "Run remainder of line as a command in terminal. Can also use '--' as flag"
+msgid "Run remainder of line as a command in terminal"
+msgstr "टर्मिनलवर कमांड म्हणून उर्वरित लाईन चालवा. ध्वज म्हणून '--' देखील वापरू शकता"
+
+#: src/Application.vala:99
+msgid "[-- COMMAND…]"
+msgstr ""
+
+#: src/Application.vala:159
+msgid "Process completed"
+msgstr ""
+
+#: src/Application.vala:162
+msgid "Process exited with errors"
+msgstr ""
+
+#: src/MainWindow.vala:168
+msgid "Show Search Bar"
+msgstr ""
+
+#. TerminalWidget actions
+#: src/MainWindow.vala:175
+msgid "Copy"
+msgstr "प्रतिकृती"
+
+#: src/MainWindow.vala:181
+msgid "Copy Last Output"
+msgstr "अंतिम आउटपुट कॉपी करा"
+
+#: src/MainWindow.vala:187
+msgid "Paste"
+msgstr "चिकटवा(पेस्ट)"
+
+#: src/MainWindow.vala:193
+msgid "Select All"
+msgstr "सर्व निवडा"
+
+#: src/MainWindow.vala:288
+msgid "Exit FullScreen"
+msgstr ""
+
+#: src/MainWindow.vala:297 src/MainWindow.vala:1058
+msgid "Find…"
+msgstr "शोधा…"
+
+#: src/MainWindow.vala:304
+msgid "Settings"
+msgstr "सेटिंग्ज"
+
+#. Changing atributes has no effect after adding item to menu so remove and re-add.
+#. This item was added first
+#: src/MainWindow.vala:555
+#, c-format
+msgid "Show in %s"
+msgstr "%s मध्ये दाखवा"
+
+#: src/MainWindow.vala:557
+msgid "Default application"
+msgstr "डीफॉल्ट अप्लिकेशन"
+
+#: src/MainWindow.vala:1049
+msgid "Hide find bar"
+msgstr "शोध बार लपवा"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:43
+msgid "Color Preferences"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:49
+msgid "Window style:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:57
+msgid "Light"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:58
+#: src/Widgets/SettingsPopover.vala:102
+msgid "Dark"
+msgstr "गडद"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:62
+msgid "Color Palette"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:72
+msgid "Reset to default"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:75
+msgid "Black:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:76
+msgid "Red:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:77
+msgid "Green:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:78
+msgid "Yellow:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:79
+msgid "Blue:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:80
+msgid "Magenta:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:81
+msgid "Cyan:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:82
+msgid "Gray:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:83
+msgid "White:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:84
+msgid "Light Red:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:85
+msgid "Light Green:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:86
+msgid "Light Yellow:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:87
+msgid "Light Blue:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:88
+msgid "Light Magenta:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:89
+msgid "Light Cyan:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:90
+msgid "Light Gray:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:91
+msgid "Background:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:92
+msgid "Foreground:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:93
+msgid "Cursor:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:190
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Close"
+msgstr "टॅब बंद करा"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:310
+msgid "Contrast is very low"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:313
+msgid "Contrast is low"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:316
+msgid "Contrast is good"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:319
+msgid "Contrast is high"
+msgstr ""
+
+#: src/Dialogs/ForegroundProcessDialog.vala:26
+msgid "Are you sure you want to close this tab?"
+msgstr "आपणास खात्री आहे की आपण हा टॅब बंद करू इच्छिता?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:28
+msgid "There is an active process on this tab."
+msgstr "या टॅबवर एक सक्रिय प्रक्रिया आहे."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:29
+msgid "If you close it, the process will end."
+msgstr "आपण ही टॅब बंद केल्यास प्रक्रिया समाप्त होईल."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:31
+#: src/Widgets/TerminalView.vala:211
+msgid "Close Tab"
+msgstr "टॅब बंद करा"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:38
+msgid "Are you sure you want to quit Terminal?"
+msgstr "तुम्हाला खरोखर टर्मिनल बंद करायचे आहे का?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:40
+msgid "There is an active process on this terminal."
+msgstr "या टर्मिनलवर एक सक्रिय प्रक्रिया आहे."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:41
+msgid "If you quit Terminal, the process will end."
+msgstr "आपण टर्मिनल बंद केल्यास प्रक्रिया बंद होईल."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:43
+msgid "Quit Terminal"
+msgstr "टर्मिनल बंद करा"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:50
+#, fuzzy
+#| msgid "Are you sure you want to close this tab?"
+msgid "Are you sure you want to reload this tab?"
+msgstr "आपणास खात्री आहे की आपण हा टॅब बंद करू इच्छिता?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:52
+#, fuzzy
+#| msgid "There is an active process on this terminal."
+msgid ""
+"There is an active process on this tab. If you reload it, the process will "
+"end."
+msgstr "या टर्मिनलवर एक सक्रिय प्रक्रिया आहे."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:54
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Reload Tab"
+msgstr "टॅब बंद करा"
+
+#: src/Dialogs/UnsafePasteDialog.vala:34
+msgid ""
+"Copying commands into Terminal can be dangerous. Be sure you understand what "
+"each part of the pasted text does before continuing."
+msgstr ""
+
+#: src/Dialogs/UnsafePasteDialog.vala:36
+msgid "Show paste protection warnings"
+msgstr "पेस्ट संरक्षण चेतावणी दर्शवा"
+
+#: src/Dialogs/UnsafePasteDialog.vala:41
+msgid "Don't Paste"
+msgstr "चिकटवू (पेस्ट करू) नका"
+
+#: src/Dialogs/UnsafePasteDialog.vala:43
+msgid "Paste Anyway"
+msgstr "तरीही चिकटवा (पेस्ट करा)"
+
+#: src/Widgets/SearchToolbar.vala:36
+msgid "Find"
+msgstr "शोधा"
+
+#: src/Widgets/SearchToolbar.vala:42
+msgid "Previous result"
+msgstr "मागील निप्पत्ती"
+
+#: src/Widgets/SearchToolbar.vala:49
+msgid "Next result"
+msgstr "पुढील निप्पत्ती"
+
+#: src/Widgets/SearchToolbar.vala:58
+msgid "Cyclic search"
+msgstr "चक्रीय शोध"
+
+#: src/Widgets/SettingsPopover.vala:42
+msgid "Zoom out"
+msgstr "झूम आऊट"
+
+#: src/Widgets/SettingsPopover.vala:50
+msgid "Default zoom level"
+msgstr "डिफ़ॉल्ट ज़ूम स्तर"
+
+#: src/Widgets/SettingsPopover.vala:58
+msgid "Zoom in"
+msgstr "झूम इन"
+
+#: src/Widgets/SettingsPopover.vala:86
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:95
+msgid "High Contrast"
+msgstr "उच्च तीव्रता"
+
+#: src/Widgets/SettingsPopover.vala:98
+msgid "Solarized Light"
+msgstr "सौरकृत फिका"
+
+#: src/Widgets/SettingsPopover.vala:108
+msgid "Custom"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:114
+msgid "Natural Copy/Paste"
+msgstr "नैसर्गिक कॉपी / पेस्ट"
+
+#: src/Widgets/SettingsPopover.vala:115
+msgid "Shortcuts don’t require Shift; may interfere with CLI apps"
+msgstr "शॉर्टकट्सना शिफ्टची आवश्यकता नसते; सीएलआय अॅप्समध्ये हस्तक्षेप करू शकते"
+
+#: src/Widgets/SettingsPopover.vala:119
+msgid "Event Alerts"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:120
+msgid ""
+"Notify for invalid input or multiple possible completions (subject to System "
+"Settings → Sound)"
+msgstr ""
+
+#: src/Widgets/TerminalWidget.vala:28
+msgid "Terminal"
+msgstr "टर्मिनल"
+
+#: src/Widgets/TerminalWidget.vala:494
+msgid "The pasted text may contain multiple commands"
+msgstr ""
+
+#: src/Widgets/TerminalWidget.vala:496
+msgid "The pasted text may be trying to gain administrative access"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:62
+#, fuzzy
+#| msgid "New Root Tab"
+msgid "New Tab"
+msgstr "नवीन रूट टॅब"
+
+#: src/Widgets/TerminalView.vala:69
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Closed Tabs"
+msgstr "टॅब बंद करा"
+
+#: src/Widgets/TerminalView.vala:209
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:210
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Close Other Tabs"
+msgstr "टॅब बंद करा"
+
+#: src/Widgets/TerminalView.vala:214
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "नवीन विंडो"
+
+#: src/Widgets/TerminalView.vala:215
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:218
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Reload"
+msgstr "टॅब बंद करा"
+
+#: src/Widgets/ZoomOverlay.vala:15
+#, c-format
+msgid "Zoom: %.0f%%"
+msgstr ""
+
+#~ msgid "Open a new terminal tab"
+#~ msgstr "नवीन टर्मिनल टॅब उघडा"
+
+#~ msgid "Show help"
+#~ msgstr "मदत दाखवा"
+
+#~ msgid "This command is asking for Administrative access to your computer"
+#~ msgstr "ही कमांड आपल्या संगणकावर प्रशासकीय प्रवेशासाठी परवानगी मागत आहे"
+
+#~ msgid "Copying commands into the Terminal can be dangerous."
+#~ msgstr "टर्मिनलमध्ये कमांड कॉपी करणे धोकादायक असू शकते."
+
+#~ msgid "Be sure you understand what each part of this command does."
+#~ msgstr "कमांडचा प्रत्येक भाग काय करतो हे आपणांस समजले असल्याची खात्री करून घ्या."
+
+#~ msgid "Task finished"
+#~ msgstr "कार्य पूर्ण झाले"
+
+#~ msgid "Show in File Browser"
+#~ msgstr "फाईल ब्राउझर मध्ये दाखवा"
+
+#~ msgid "Style"
+#~ msgstr "शैली"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "सौरकृत गडद"
+
+#~ msgid "Cancel"
+#~ msgstr "रद्द करा"
+
+#~ msgid "Do not show this dialog again"
+#~ msgstr "पुन्हा हा संवाद दाखवू नये"
+
+#~ msgid "About Terminal"
+#~ msgstr "टर्मिनल बद्दल"
+
+#~ msgid "Use the command line"
+#~ msgstr "कमांड लाइन वापरा"
+
+#~ msgid "Open Terminal Here"
+#~ msgstr "येथे टर्मिनल उघडा"

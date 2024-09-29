@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015–2022 Phyre Ltd. <contact@phyreos.io> -->
+<component type="desktop-application">
+  <id>io.phyre.terminal</id>
+  <launchable type="desktop-id">io.phyre.terminal.desktop</launchable>
+  <translation type="gettext">io.phyre.terminal</translation>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <name>Terminal</name>
+  <summary>Use the command line</summary>
+  <description>
+    <p>Terminal is a terminal emulator application for accessing a UNIX shell environment which can be used to run programs available on your system.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot-light.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot-high-contrast.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot-find.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot-custom-style.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/phyre-os/terminal/6.2.0/data/screenshot-paste-protection.png</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+  <provides>
+    <binary>io.phyre.terminal</binary>
+  </provides>
+
+  <url type="homepage">https://phyreos.io/</url>
+  <url type="bugtracker">https://github.com/elementary/terminal/issues</url>
+  <url type="donation">https://phyreos.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/terminal/discussions/categories/q-a</url>
+  <url type="translate">https://l10n.phyreos.io/projects/terminal/</url>
+
+  <developer id="org.elementaryos">
+    <name>Phyre Ltd.</name>
+  </developer>
+  <project_group>elementary</project_group>
+  <update_contact>contact_AT_phyreos.io</update_contact>
+
+  <releases>
+    <release version="6.2.0" date="2024-07-18" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Allow switching event alerts on and off in the app menu</li>
+          <li>Save tabs and zooms to the saved state settings when they change</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Document missing options in the man page</li>
+          <li>Suppress unwanted default tab when opening a new window</li>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/terminal/issues/596">No terminal bell any more</issue>
+        <issue url="https://github.com/elementary/terminal/issues/728">Incomplete man page</issue>
+        <issue url="https://github.com/elementary/terminal/issues/736">When creating a new terminal window at a apecified working directory, an additional default tab is also opened</issue>
+        <issue url="https://github.com/elementary/terminal/issues/741">Tabs and tab-zooms not saved to settings continuously</issue>
+        <issue url="https://github.com/elementary/terminal/issues/752">The F11 shortcut key causes the maximize/unmaximize button to fail</issue>
+      </issues>
+    </release>
+
+    <release version="6.1.2" date="2023-04-03" urgency="medium">
+      <description>
+        <p>Other updates:</p>
+        <ul>
+          <li>Add shortcuts "Ctrl + PageUp" and "Ctrl + PageDown" to switch between tabs</li>
+          <li>Properly unexport the DBus Interface on Exit</li>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/terminal/issues/625">Some characters are incorrectly escaped in links in Terminal</issue>
+        <issue url="https://github.com/elementary/terminal/issues/676">Keybinds for micro text editor do not work</issue>
+        <issue url="https://github.com/elementary/terminal/issues/681">Option to start minimized</issue>
+        <issue url="https://github.com/elementary/terminal/issues/696">Pressing the menu key doesn't refresh the context menu</issue>
+      </issues>
+    </release>
+
+    <release version="6.1.1" date="2022-10-26" urgency="medium">
+      <description>
+        <p>Other updates:</p>
+        <ul>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/terminal/issues/689">Notification displays timestamp when HISTTIMEFORMAT is set</issue>
+      </issues>
+    </release>
+
+    <release version="6.1.0" date="2022-08-11" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Option to follow system dark style preference</li>
+          <li>Create a custom color palette</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Default styles are fully opaque and updated to the latest upstream values from Solarized for improved legibility</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Translation updates</li>
+          <li>Performance improvements</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.2" date="2022-05-16" urgency="medium">
+      <description>
+        <p>New features:</p>
+        <ul>
+          <li>Switch tabs with Alt + 1-9</li>
+          <li>Quit with Ctrl + Shift + Q</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix build on OS 7</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.1" date="2021-12-13"/>
+    <release version="6.0.0" date="2020-06-15"/>
+    <release version="5.5.2" date="2020-04-01"/>
+    <release version="5.5.1" date="2020-01-11"/>
+    <release version="5.5.0" date="2020-01-02"/>
+    <release version="5.4.0" date="2019-11-15"/>
+    <release version="5.3.6" date="2019-07-15"/>
+    <release version="5.3.5" date="2019-06-04"/>
+    <release version="5.3.4" date="2019-03-29"/>
+    <release version="5.3.3" date="2018-12-06"/>
+    <release version="5.3.2" date="2018-10-30"/>
+    <release version="5.3.1" date="2018-10-16"/>
+    <release version="0.5.3" date="2018-09-06"/>
+    <release version="0.5.2" date="2018-08-22"/>
+    <release version="0.5.1" date="2018-07-23"/>
+    <release version="0.5.0" date="2018-06-19"/>
+    <release version="0.4.3" date="2017-07-22"/>
+    <release version="0.4.2" date="2017-05-15"/>
+    <release version="0.4.1" date="2017-05-06"/>
+    <release version="0.4.0.3" date="2017-01-04"/>
+    <release version="0.4.0.2" date="2016-10-30"/>
+    <release version="0.4.0.1" date="2016-10-30"/>
+  </releases>
+</component>

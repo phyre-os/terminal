@@ -1,0 +1,282 @@
+# Brazilian Portuguese translation for pantheon-terminal
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2021-07-17 17:21+0000\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.phyreos.io/projects/"
+"terminal/extra/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2016-10-17 06:41+0000\n"
+
+#: data/io.phyre.terminal.appdata.xml.in:10
+#: data/io.phyre.terminal.desktop.in:3
+#: data/io.phyre.terminal.desktop.in:4
+msgid "Terminal"
+msgstr "Terminal"
+
+#: data/io.phyre.terminal.appdata.xml.in:11
+#: data/io.phyre.terminal.desktop.in:5
+msgid "Use the command line"
+msgstr "Usar a linha de comando"
+
+#: data/io.phyre.terminal.appdata.xml.in:13
+msgid ""
+"Terminal is a terminal emulator application for accessing a UNIX shell "
+"environment which can be used to run programs available on your system."
+msgstr ""
+"Terminal é uma aplicação emuladora de terminal para acessar um ambiente de "
+"shell UNIX que pode ser usada para executar programas disponíveis em seu "
+"sistema."
+
+#: data/io.phyre.terminal.appdata.xml.in:58
+#: data/io.phyre.terminal.appdata.xml.in:110
+#: data/io.phyre.terminal.appdata.xml.in:129
+msgid "New features:"
+msgstr "Novas funcionalidades:"
+
+#: data/io.phyre.terminal.appdata.xml.in:60
+msgid "Allow switching event alerts on and off in the app menu"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:61
+msgid "Save tabs and zooms to the saved state settings when they change"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:63
+#: data/io.phyre.terminal.appdata.xml.in:81
+#: data/io.phyre.terminal.appdata.xml.in:98
+#: data/io.phyre.terminal.appdata.xml.in:119
+#: data/io.phyre.terminal.appdata.xml.in:138
+msgid "Other updates:"
+msgstr "Outras atualizações:"
+
+#: data/io.phyre.terminal.appdata.xml.in:65
+msgid "Document missing options in the man page"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:66
+msgid "Suppress unwanted default tab when opening a new window"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:67
+#: data/io.phyre.terminal.appdata.xml.in:85
+#: data/io.phyre.terminal.appdata.xml.in:100
+#: data/io.phyre.terminal.appdata.xml.in:121
+#: data/io.phyre.terminal.appdata.xml.in:140
+msgid "Translation updates"
+msgstr "Atualizações de tradução"
+
+#: data/io.phyre.terminal.appdata.xml.in:83
+msgid ""
+"Add shortcuts \"Ctrl + PageUp\" and \"Ctrl + PageDown\" to switch between "
+"tabs"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:84
+msgid "Properly unexport the DBus Interface on Exit"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:112
+msgid "Option to follow system dark style preference"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:113
+#, fuzzy
+#| msgid "Validate custom palette"
+msgid "Create a custom color palette"
+msgstr "Validar paleta personalizada"
+
+#: data/io.phyre.terminal.appdata.xml.in:115
+#: data/io.phyre.terminal.appdata.xml.in:134
+msgid "Fixes:"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:117
+msgid ""
+"Default styles are fully opaque and updated to the latest upstream values "
+"from Solarized for improved legibility"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:122
+msgid "Performance improvements"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:131
+msgid "Switch tabs with Alt + 1-9"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:132
+msgid "Quit with Ctrl + Shift + Q"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:136
+msgid "Fix build on OS 7"
+msgstr ""
+
+#: data/io.phyre.terminal.desktop.in:13
+msgid "command;prompt;cmd;commandline;run;"
+msgstr "comando;prompt;cmd;linhadecomando;executar;"
+
+#: data/io.phyre.terminal.desktop.in:18
+msgid "New Window"
+msgstr "Nova janela"
+
+#: data/io.phyre.terminal.desktop.in:22
+msgid "New Root Tab"
+msgstr "Nova aba root"
+
+#, fuzzy
+#~| msgid "elementary LLC."
+#~ msgid "Phyre Ltd."
+#~ msgstr "elementary LLC."
+
+#~ msgid "Move tabs with the shortcut Ctrl + Alt + ←/→"
+#~ msgstr "Mude de abas com o atalho Ctrl + Alt + ←/→"
+
+#, fuzzy
+#~| msgid "Show keyboard shortcuts in the secondary-click menu"
+#~ msgid "Show keyboard shortcuts in tab context menus"
+#~ msgstr "Mostrar atalhos de teclado no menu de clique secundário"
+
+#~ msgid "Validate custom palette"
+#~ msgstr "Validar paleta personalizada"
+
+#~ msgid "Add commandline option for New Tab (-t)"
+#~ msgstr "Adicionar opção de linha de comando para Nova Aba (-t)"
+
+#~ msgid "Fix URL selection"
+#~ msgstr "Correção de seleção de URL"
+
+#~ msgid "Add commandline option for \"Show version\" (-v, --version)"
+#~ msgstr ""
+#~ "Adicionar opção de linha de comando para \"Mostrar versão\" (-v, --"
+#~ "version)"
+
+#~ msgid "Add commandline option for New Window (-n)"
+#~ msgstr "Adicionar opção de linha de comando para Nova Janela (-n)"
+
+#~ msgid "Prevent duplicate tab on startup"
+#~ msgstr "Impedir guia duplicada na inicialização"
+
+#~ msgid "Prevent unnecessary Home tab on startup"
+#~ msgstr "Impedir a guia Início desnecessária na inicialização"
+
+#~ msgid "Turn Natural Copy/Paste on or off in the Settings menu"
+#~ msgstr "Ative ou desative a Copiar/Colar Natural no menu Configurações"
+
+#~ msgid "Zoom with Ctrl + Scroll"
+#~ msgstr "Zoom com Ctrl + Scroll"
+
+#~ msgid "Include sudo password prompt when copying last output"
+#~ msgstr "Incluir prompt de senha sudo ao copiar a última saída"
+
+#~ msgid "Apply font changes without restarting"
+#~ msgstr "Aplicar alterações de fonte sem reiniciar"
+
+#~ msgid "Don't remember tabs when History is disabled in System Settings"
+#~ msgstr ""
+#~ "Não lembrar das guias quando o Histórico está desativado nas "
+#~ "Configurações do sistema"
+
+#~ msgid "Show keyboard shortcuts in the secondary-click menu"
+#~ msgstr "Mostrar atalhos de teclado no menu de clique secundário"
+
+#~ msgid "Middle-click paste now properly follows System Settings"
+#~ msgstr ""
+#~ "Colar com o botão do meio agora segue corretamente as Configurações do "
+#~ "Sistema"
+
+#~ msgid "Shift + Control + D to duplicate tabs"
+#~ msgstr "Shift + Control + D para duplicar guias"
+
+#~ msgid "Use neutral colors for the dark style scheme"
+#~ msgstr "Utilizar cores neutras para o esquema de estilo escuro"
+
+#~ msgid "Slightly pad text from the edge of the window"
+#~ msgstr "Coloque levemente o texto da borda da janela"
+
+#~ msgid "Pressing the Menu key now opens the context menu"
+#~ msgstr "Pressionar a tecla Menu agora abre o menu de contexto"
+
+#~ msgid "Store state with GSettings"
+#~ msgstr "Armazenar estado com GSettings"
+
+#~ msgid "Support Ctrl+Equal key combo to zoom in"
+#~ msgstr "Suporta a combinação das teclas Ctrl+Equal para aumentar o zoom"
+
+#~ msgid "Fix a wrong foreground process response code"
+#~ msgstr ""
+#~ "Corrigir um código de resposta incorreto do processo de primeiro plano"
+
+#~ msgid "Return focus after popover menu closes"
+#~ msgstr "Retornar o foco após o menu popover fechar"
+
+#~ msgid "Prevent search and style buttons from receiving focus"
+#~ msgstr "Impedir que os botões de pesquisa e estilo recebam o foco"
+
+#~ msgid "Hide the cursor while typing"
+#~ msgstr "Esconda o cursor enquanto digita"
+
+#~ msgid "Fix erratic search text highlightning behavior"
+#~ msgstr "Corrigir comportamento errático de realce de texto de pesquisa"
+
+#~ msgid "Support -h flag for help"
+#~ msgstr "Suportar sinalizador -h para ajuda"
+
+#~ msgid "Disable audible bell"
+#~ msgstr "Desativar campainha audível"
+
+#~ msgid "Add Alt+↑ action to scroll to last command"
+#~ msgstr "Adicione a ação Alt+↑ para rolar para o último comando"
+
+#~ msgid "Add Alt+c action to copy last output"
+#~ msgstr "Adicionar ação Alt+c para copiar a última saída"
+
+#~ msgid "Add accels to tooltips"
+#~ msgstr "Adicionar níveis às dicas de ferramentas"
+
+#~ msgid "Fix zsh notifications"
+#~ msgstr "Corrigir notificações zsh"
+
+#~ msgid "Conditional ctrl+g shortcut to deconflict with emacs"
+#~ msgstr "Atalho Ctrl+g condicional para não conflitar com o emacs"
+
+#~ msgid "Minor bug fixes"
+#~ msgstr "Pequenas correções de bugs"
+
+#~ msgid "FISH integration fixes"
+#~ msgstr "Correções de integração FISH"
+
+#~ msgid "Theme preference menu"
+#~ msgstr "Menu de preferências de tema"
+
+#~ msgid "Zoom level controls"
+#~ msgstr "Controles de nível de zoom"
+
+#~ msgid "Allow tab to close after typing exit at the commandline"
+#~ msgstr ""
+#~ "Permitir que a guia seja fechada após a digitar exit na linha de comando"
+
+#~ msgid "Fix copying URLs to clipboard"
+#~ msgstr "Corrigir a cópia de URLs para a área de transferência"
+
+#~ msgid "Fix appstream date format"
+#~ msgstr "Corrigir formato de data do appstream"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
+#~ msgid "About Terminal"
+#~ msgstr "Sobre o Terminal"

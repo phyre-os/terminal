@@ -1,0 +1,549 @@
+# Czech translation for pantheon-terminal
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2024-09-19 07:22+0000\n"
+"Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
+"Language-Team: Czech <https://l10n.phyreos.io/projects/terminal/terminal/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.6.2\n"
+"X-Launchpad-Export-Date: 2017-02-28 04:59+0000\n"
+
+#: src/Application.vala:34
+msgid "Show version"
+msgstr "Zobrazit verzi"
+
+#. -n flag forces a new window
+#: src/Application.vala:36
+msgid "Open a new terminal window"
+msgstr "Otevřít nové okno terminálu"
+
+#. -t flag forces a new tab
+#: src/Application.vala:38
+msgid "Open a new terminal tab at current working directory"
+msgstr "Otevřít novou záložku terminálu v pracovním adresáři"
+
+#. -w flag defines the working directory that the new tab/window uses
+#: src/Application.vala:40
+msgid "Set shell working directory"
+msgstr "Nastavit pracovní adresář shellu"
+
+#. -e flag is used for running single strings as a command line
+#: src/Application.vala:42
+msgid "Run a program in terminal"
+msgstr "Spustit program v terminálu"
+
+#. -m flag starts terminal in a minimized state
+#: src/Application.vala:44
+msgid "Open terminal in a minimized state"
+msgstr "Otevřít terminál minimalizovaný"
+
+#. -x flag is used for using the rest of the command line in the new tab/window
+#: src/Application.vala:47
+msgid "Run remainder of line as a command in terminal"
+msgstr "Spustit zbytek řádku jako příkaz v terminálu"
+
+#: src/Application.vala:99
+msgid "[-- COMMAND…]"
+msgstr "[-- PŘÍKAZ…]"
+
+#: src/Application.vala:159
+msgid "Process completed"
+msgstr "Proces dokončen"
+
+#: src/Application.vala:162
+msgid "Process exited with errors"
+msgstr "Proces skončil s chybami"
+
+#: src/MainWindow.vala:168
+msgid "Show Search Bar"
+msgstr "Ukázat lištu vyhledávání"
+
+#. TerminalWidget actions
+#: src/MainWindow.vala:175
+msgid "Copy"
+msgstr "Zkopírovat"
+
+#: src/MainWindow.vala:181
+msgid "Copy Last Output"
+msgstr "Kopírovat poslední výstup"
+
+#: src/MainWindow.vala:187
+msgid "Paste"
+msgstr "Vložit"
+
+#: src/MainWindow.vala:193
+msgid "Select All"
+msgstr "Vybrat vše"
+
+#: src/MainWindow.vala:288
+#, fuzzy
+#| msgid "Fullscreen"
+msgid "Exit FullScreen"
+msgstr "Na celou obrazovku"
+
+#: src/MainWindow.vala:297 src/MainWindow.vala:1058
+msgid "Find…"
+msgstr "Najít…"
+
+#: src/MainWindow.vala:304
+msgid "Settings"
+msgstr "Nastavení"
+
+#. Changing atributes has no effect after adding item to menu so remove and re-add.
+#. This item was added first
+#: src/MainWindow.vala:555
+#, c-format
+msgid "Show in %s"
+msgstr "Zobrazit v %s"
+
+#: src/MainWindow.vala:557
+msgid "Default application"
+msgstr "Výchozí aplikace"
+
+#: src/MainWindow.vala:1049
+msgid "Hide find bar"
+msgstr "Skrýt panel vyhledávání"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:43
+msgid "Color Preferences"
+msgstr "Nastavení barev"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:49
+msgid "Window style:"
+msgstr "Styl okna:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:57
+msgid "Light"
+msgstr "Světlý"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:58
+#: src/Widgets/SettingsPopover.vala:102
+msgid "Dark"
+msgstr "Tmavý"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:62
+msgid "Color Palette"
+msgstr "Paleta barev"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:72
+msgid "Reset to default"
+msgstr "Vrátit výchozí nastavení"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:75
+msgid "Black:"
+msgstr "Černá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:76
+msgid "Red:"
+msgstr "Červená:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:77
+msgid "Green:"
+msgstr "Zelená:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:78
+msgid "Yellow:"
+msgstr "Žlutá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:79
+msgid "Blue:"
+msgstr "Modrá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:80
+msgid "Magenta:"
+msgstr "Fuchsiová:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:81
+msgid "Cyan:"
+msgstr "Cyanová:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:82
+msgid "Gray:"
+msgstr "Šedá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:83
+msgid "White:"
+msgstr "Bílá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:84
+msgid "Light Red:"
+msgstr "Světle červená:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:85
+msgid "Light Green:"
+msgstr "Světle zelená:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:86
+msgid "Light Yellow:"
+msgstr "Světle žlutá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:87
+msgid "Light Blue:"
+msgstr "Světle modrá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:88
+msgid "Light Magenta:"
+msgstr "Světle fuchsiová:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:89
+msgid "Light Cyan:"
+msgstr "Světle cyanová:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:90
+msgid "Light Gray:"
+msgstr "Světle šedá:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:91
+msgid "Background:"
+msgstr "Pozadí:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:92
+msgid "Foreground:"
+msgstr "Popředí:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:93
+msgid "Cursor:"
+msgstr "Kurzor:"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:190
+msgid "Close"
+msgstr "Zavřít"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:310
+msgid "Contrast is very low"
+msgstr "Kontrast je velmi nízký"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:313
+msgid "Contrast is low"
+msgstr "Kontrast je nízký"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:316
+msgid "Contrast is good"
+msgstr "Kontrast je dobrý"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:319
+msgid "Contrast is high"
+msgstr "Kontrast je vysoký"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:26
+msgid "Are you sure you want to close this tab?"
+msgstr "Opravdu chcete zavřít tuto kartu?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:28
+msgid "There is an active process on this tab."
+msgstr "V této kartě je spuštěný proces."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:29
+msgid "If you close it, the process will end."
+msgstr "Pokud ji zavřete, proces bude ukončen."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:31
+#: src/Widgets/TerminalView.vala:211
+msgid "Close Tab"
+msgstr "Zavřít kartu"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:38
+msgid "Are you sure you want to quit Terminal?"
+msgstr "Opravdu chcete ukončit Terminál?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:40
+msgid "There is an active process on this terminal."
+msgstr "V tomto okně terminálu je spuštěný aktivní proces."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:41
+msgid "If you quit Terminal, the process will end."
+msgstr "Pokud ukončíte Terminál, proces bude ukončen."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:43
+msgid "Quit Terminal"
+msgstr "Ukončit Terminál"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:50
+msgid "Are you sure you want to reload this tab?"
+msgstr "Opravdu chcete tuto kartu znovu načíst?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:52
+msgid ""
+"There is an active process on this tab. If you reload it, the process will "
+"end."
+msgstr ""
+"V této kartě je spuštěný aktivní proces. Pokud ji znovu načtete, proces bude "
+"ukončen."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:54
+msgid "Reload Tab"
+msgstr "Znovu načíst kartu"
+
+#: src/Dialogs/UnsafePasteDialog.vala:34
+msgid ""
+"Copying commands into Terminal can be dangerous. Be sure you understand what "
+"each part of the pasted text does before continuing."
+msgstr ""
+"Vkládání odněkud zkopírovaných příkazů do terminálu může být nebezpečné. Než "
+"budete pokračovat ujistěte se, že rozumíte všem částem vkládaného textu."
+
+#: src/Dialogs/UnsafePasteDialog.vala:36
+msgid "Show paste protection warnings"
+msgstr "Zobrazovat varování o vkládání"
+
+#: src/Dialogs/UnsafePasteDialog.vala:41
+msgid "Don't Paste"
+msgstr "Nevkládat"
+
+#: src/Dialogs/UnsafePasteDialog.vala:43
+msgid "Paste Anyway"
+msgstr "Přesto vložit"
+
+#: src/Widgets/SearchToolbar.vala:36
+msgid "Find"
+msgstr "Hledat"
+
+#: src/Widgets/SearchToolbar.vala:42
+msgid "Previous result"
+msgstr "Předchozí výsledek"
+
+#: src/Widgets/SearchToolbar.vala:49
+msgid "Next result"
+msgstr "Další výsledek"
+
+#: src/Widgets/SearchToolbar.vala:58
+msgid "Cyclic search"
+msgstr "Opakované hledání"
+
+#: src/Widgets/SettingsPopover.vala:42
+msgid "Zoom out"
+msgstr "Oddálit"
+
+#: src/Widgets/SettingsPopover.vala:50
+msgid "Default zoom level"
+msgstr "Výchozí úroveň přiblížení"
+
+#: src/Widgets/SettingsPopover.vala:58
+msgid "Zoom in"
+msgstr "Přiblížit"
+
+#: src/Widgets/SettingsPopover.vala:86
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:95
+msgid "High Contrast"
+msgstr "Vysoký kontrast"
+
+#: src/Widgets/SettingsPopover.vala:98
+msgid "Solarized Light"
+msgstr "Solarizovaný světlý"
+
+#: src/Widgets/SettingsPopover.vala:108
+msgid "Custom"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:114
+msgid "Natural Copy/Paste"
+msgstr "Přirozené kopírování/vkládání"
+
+#: src/Widgets/SettingsPopover.vala:115
+msgid "Shortcuts don’t require Shift; may interfere with CLI apps"
+msgstr ""
+"Klávesové zkratky nevyžadují použití Shift; může kolidovat s aplikacemi v "
+"příkazovém řádku"
+
+#: src/Widgets/SettingsPopover.vala:119
+msgid "Event Alerts"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:120
+msgid ""
+"Notify for invalid input or multiple possible completions (subject to System "
+"Settings → Sound)"
+msgstr ""
+
+#: src/Widgets/TerminalWidget.vala:28
+msgid "Terminal"
+msgstr "Terminál"
+
+#: src/Widgets/TerminalWidget.vala:494
+msgid "The pasted text may contain multiple commands"
+msgstr "Vložený text může obsahovat vícero příkazů"
+
+#: src/Widgets/TerminalWidget.vala:496
+msgid "The pasted text may be trying to gain administrative access"
+msgstr "Vložený text se může pokoušet získat práva správce systému"
+
+#: src/Widgets/TerminalView.vala:62
+msgid "New Tab"
+msgstr "Nová karta"
+
+#: src/Widgets/TerminalView.vala:69
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Closed Tabs"
+msgstr "Zavřít kartu"
+
+#: src/Widgets/TerminalView.vala:209
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:210
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Close Other Tabs"
+msgstr "Zavřít kartu"
+
+#: src/Widgets/TerminalView.vala:214
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "Nové okno"
+
+#: src/Widgets/TerminalView.vala:215
+#, fuzzy
+#| msgid "Duplicate"
+msgid "Duplicate Tab"
+msgstr "Zduplikovat"
+
+#: src/Widgets/TerminalView.vala:218
+msgid "Reload"
+msgstr "Načíst znovu"
+
+#: src/Widgets/ZoomOverlay.vala:15
+#, c-format
+msgid "Zoom: %.0f%%"
+msgstr ""
+
+#~ msgid "Open a new terminal tab"
+#~ msgstr "Otevřít nový panel terminálu"
+
+#~ msgid "Show help"
+#~ msgstr "Zobrazit nápovědu"
+
+#~ msgid "This command is asking for Administrative access to your computer"
+#~ msgstr "Tento příkaz vyžaduje administrátorské oprávnění"
+
+#~ msgid "Copying commands into the Terminal can be dangerous."
+#~ msgstr "Kopírování příkazů do terminálu může být nebezpečné."
+
+#~ msgid "Be sure you understand what each part of this command does."
+#~ msgstr "Ujistěte se, že jste pochopili, co každá část tohoto příkazu dělá."
+
+#~ msgid "Task finished"
+#~ msgstr "Úloha dokončena"
+
+#~ msgid "Show in File Browser"
+#~ msgstr "Zobrazit v prohlížeči souborů"
+
+#~ msgid "Style"
+#~ msgstr "Styl"
+
+#~ msgid "Solarized Dark"
+#~ msgstr "Solarizovaný tmavý"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušit"
+
+#~ msgid "Do not show this dialog again"
+#~ msgstr "Znovu nezobrazovat tento dialog"
+
+#~ msgid "About Terminal"
+#~ msgstr "O aplikaci Terminál"
+
+#~ msgid "Use the command line"
+#~ msgstr "Použijte příkazovou řádku"
+
+#~ msgid "New Root Tab"
+#~ msgstr "Nová karta s právy root"
+
+#~ msgid "Open Terminal Here"
+#~ msgstr "Otevřít terminál zde"
+
+#~ msgid "Create a new tab"
+#~ msgstr "Vytvořit novu kartu"
+
+#~ msgid "Copy the selected text"
+#~ msgstr "Kopírovat vybraný text"
+
+#~ msgid "Search for a given string in the terminal"
+#~ msgstr "Hledat daný řetězec v terminálu"
+
+#~ msgid "Paste some text"
+#~ msgstr "Vložit text"
+
+#~ msgid "Select all the text in the terminal"
+#~ msgstr "Vybrat všechen text v terminálu"
+
+#~ msgid "About"
+#~ msgstr "O aplikaci"
+
+#~ msgid "Show about window"
+#~ msgstr "Zobrazit okno s informacemi o programu"
+
+#~ msgid "Next Tab"
+#~ msgstr "Další karta"
+
+#~ msgid "Go to next tab"
+#~ msgstr "Přejít na další kartu"
+
+#~ msgid "Previous Tab"
+#~ msgstr "Předchozí karta"
+
+#~ msgid "Go to previous tab"
+#~ msgstr "Přejít na předchozí kartu"
+
+#~ msgid "Toggle/Untoggle fullscreen"
+#~ msgstr "Zapnout / Vypnout režim celé obrazovky"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Hlobil Vaclav https://launchpad.net/~vaclav-hlobil\n"
+#~ "  Jan Dvořák https://launchpad.net/~dvorakj50\n"
+#~ "  Jan Marek https://launchpad.net/~janmarek28\n"
+#~ "  Jiří Šebele https://launchpad.net/~sindriava+launchpad\n"
+#~ "  Long Do Hai https://launchpad.net/~mailbox-b\n"
+#~ "  Lukáš Papík https://launchpad.net/~stereo839\n"
+#~ "  Marek Doležel https://launchpad.net/~marekdolezel\n"
+#~ "  Marek Suchánek https://launchpad.net/~suchm\n"
+#~ "  Martin Bárta https://launchpad.net/~martin-bartama\n"
+#~ "  Matěj Kocián https://launchpad.net/~matej-kocian\n"
+#~ "  Maxwell Barvian https://launchpad.net/~mbarvian-deactivatedaccount\n"
+#~ "  Mirek2 https://launchpad.net/~mazelm-gmail\n"
+#~ "  Ondra Voves https://launchpad.net/~o-voves\n"
+#~ "  Ondřej Brabec https://launchpad.net/~kaktus-ob\n"
+#~ "  Strihtrs https://launchpad.net/~filip-kalous\n"
+#~ "  Tomo Moto https://launchpad.net/~tomasivanek\n"
+#~ "  Yury Nudga https://launchpad.net/~yelmuf\n"
+#~ "  thecnology https://launchpad.net/~thecnology\n"
+#~ "  Šimon Šustek https://launchpad.net/~sijisu"
+
+#~ msgid "Print version info and exit"
+#~ msgstr "Zobrazit informace o verzi a ukončit"
+
+#~ msgid "Show about dialog"
+#~ msgstr "Zobrazit dialog o programu"
+
+#~ msgid "Open a new tab"
+#~ msgstr "Otevřít novou kartu"
+
+#~ msgid "Set shell at launch"
+#~ msgstr "Nastavit shell při startu"
+
+#~ msgid "If you close this tab, this process will end."
+#~ msgstr "Pokud tuto kartu zavřete, proces bude ukončen."
+
+#~ msgid "If you quit Terminal, this process will end."
+#~ msgstr "Pokud ukončíte Terminál, tento proces bude ukončen."
+
+#~ msgid "New Root Window"
+#~ msgstr "Nové administrátorské okno"

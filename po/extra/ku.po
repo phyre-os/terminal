@@ -1,0 +1,136 @@
+# Kurdish translation for pantheon-terminal
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2018-02-11 00:09+0000\n"
+"Last-Translator: Rokar <mail@rokar.de>\n"
+"Language-Team: Kurdish <https://weblate.phyreos.io/projects/terminal/"
+"extra/ku/>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-02-11 05:36+0000\n"
+
+#: data/io.phyre.terminal.appdata.xml.in:10
+#: data/io.phyre.terminal.desktop.in:3
+#: data/io.phyre.terminal.desktop.in:4
+msgid "Terminal"
+msgstr "Termînal"
+
+#: data/io.phyre.terminal.appdata.xml.in:11
+#: data/io.phyre.terminal.desktop.in:5
+msgid "Use the command line"
+msgstr "Rêzika fermanan bikar bîne"
+
+#: data/io.phyre.terminal.appdata.xml.in:13
+msgid ""
+"Terminal is a terminal emulator application for accessing a UNIX shell "
+"environment which can be used to run programs available on your system."
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:58
+#: data/io.phyre.terminal.appdata.xml.in:110
+#: data/io.phyre.terminal.appdata.xml.in:129
+msgid "New features:"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:60
+msgid "Allow switching event alerts on and off in the app menu"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:61
+msgid "Save tabs and zooms to the saved state settings when they change"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:63
+#: data/io.phyre.terminal.appdata.xml.in:81
+#: data/io.phyre.terminal.appdata.xml.in:98
+#: data/io.phyre.terminal.appdata.xml.in:119
+#: data/io.phyre.terminal.appdata.xml.in:138
+msgid "Other updates:"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:65
+msgid "Document missing options in the man page"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:66
+msgid "Suppress unwanted default tab when opening a new window"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:67
+#: data/io.phyre.terminal.appdata.xml.in:85
+#: data/io.phyre.terminal.appdata.xml.in:100
+#: data/io.phyre.terminal.appdata.xml.in:121
+#: data/io.phyre.terminal.appdata.xml.in:140
+msgid "Translation updates"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:83
+msgid ""
+"Add shortcuts \"Ctrl + PageUp\" and \"Ctrl + PageDown\" to switch between "
+"tabs"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:84
+msgid "Properly unexport the DBus Interface on Exit"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:112
+msgid "Option to follow system dark style preference"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:113
+msgid "Create a custom color palette"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:115
+#: data/io.phyre.terminal.appdata.xml.in:134
+msgid "Fixes:"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:117
+msgid ""
+"Default styles are fully opaque and updated to the latest upstream values "
+"from Solarized for improved legibility"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:122
+msgid "Performance improvements"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:131
+msgid "Switch tabs with Alt + 1-9"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:132
+msgid "Quit with Ctrl + Shift + Q"
+msgstr ""
+
+#: data/io.phyre.terminal.appdata.xml.in:136
+msgid "Fix build on OS 7"
+msgstr ""
+
+#: data/io.phyre.terminal.desktop.in:13
+msgid "command;prompt;cmd;commandline;run;"
+msgstr "ferman;prompt;hikim;xebitandin;"
+
+#: data/io.phyre.terminal.desktop.in:18
+msgid "New Window"
+msgstr "Paceya nû"
+
+#: data/io.phyre.terminal.desktop.in:22
+msgid "New Root Tab"
+msgstr "Paceya nû Root"
+
+#~ msgid "About Terminal"
+#~ msgstr "Derbare Termînal"

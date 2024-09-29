@@ -1,0 +1,498 @@
+# Tamil translation for pantheon-terminal
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the pantheon-terminal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pantheon-terminal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 23:09+0000\n"
+"PO-Revision-Date: 2015-12-05 14:39+0000\n"
+"Last-Translator: Maxwell Barvian <Unknown>\n"
+"Language-Team: Tamil <ta@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-10-17 06:41+0000\n"
+"X-Generator: Launchpad (build 18232)\n"
+
+#: src/Application.vala:34
+msgid "Show version"
+msgstr ""
+
+#. -n flag forces a new window
+#: src/Application.vala:36
+#, fuzzy
+#| msgid "Open a new window"
+msgid "Open a new terminal window"
+msgstr "புதிய சாளரத்தை திற"
+
+#. -t flag forces a new tab
+#: src/Application.vala:38
+#, fuzzy
+#| msgid "Open a new window"
+msgid "Open a new terminal tab at current working directory"
+msgstr "புதிய சாளரத்தை திற"
+
+#. -w flag defines the working directory that the new tab/window uses
+#: src/Application.vala:40
+msgid "Set shell working directory"
+msgstr ""
+
+#. -e flag is used for running single strings as a command line
+#: src/Application.vala:42
+#, fuzzy
+#| msgid "Run a program in terminal"
+msgid "Run a program in terminal"
+msgstr "முனையத்தில் ஒரு நிரலை இயக்க"
+
+#. -m flag starts terminal in a minimized state
+#: src/Application.vala:44
+msgid "Open terminal in a minimized state"
+msgstr ""
+
+#. -x flag is used for using the rest of the command line in the new tab/window
+#: src/Application.vala:47
+msgid "Run remainder of line as a command in terminal"
+msgstr ""
+
+#: src/Application.vala:99
+msgid "[-- COMMAND…]"
+msgstr ""
+
+#: src/Application.vala:159
+msgid "Process completed"
+msgstr ""
+
+#: src/Application.vala:162
+msgid "Process exited with errors"
+msgstr ""
+
+#: src/MainWindow.vala:168
+msgid "Show Search Bar"
+msgstr ""
+
+#. TerminalWidget actions
+#: src/MainWindow.vala:175
+msgid "Copy"
+msgstr "நகலெடு"
+
+#: src/MainWindow.vala:181
+msgid "Copy Last Output"
+msgstr ""
+
+#: src/MainWindow.vala:187
+msgid "Paste"
+msgstr "ஒட்டு"
+
+#: src/MainWindow.vala:193
+msgid "Select All"
+msgstr "அனைத்தும் தேர்ந்தெடு"
+
+#: src/MainWindow.vala:288
+#, fuzzy
+#| msgid "Fullscreen"
+msgid "Exit FullScreen"
+msgstr "முழுத்திரை"
+
+#: src/MainWindow.vala:297 src/MainWindow.vala:1058
+msgid "Find…"
+msgstr ""
+
+#: src/MainWindow.vala:304
+msgid "Settings"
+msgstr ""
+
+#. Changing atributes has no effect after adding item to menu so remove and re-add.
+#. This item was added first
+#: src/MainWindow.vala:555
+#, c-format
+msgid "Show in %s"
+msgstr ""
+
+#: src/MainWindow.vala:557
+msgid "Default application"
+msgstr ""
+
+#: src/MainWindow.vala:1049
+msgid "Hide find bar"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:43
+msgid "Color Preferences"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:49
+msgid "Window style:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:57
+msgid "Light"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:58
+#: src/Widgets/SettingsPopover.vala:102
+msgid "Dark"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:62
+msgid "Color Palette"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:72
+msgid "Reset to default"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:75
+msgid "Black:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:76
+msgid "Red:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:77
+msgid "Green:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:78
+msgid "Yellow:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:79
+msgid "Blue:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:80
+msgid "Magenta:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:81
+msgid "Cyan:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:82
+msgid "Gray:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:83
+msgid "White:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:84
+msgid "Light Red:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:85
+msgid "Light Green:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:86
+msgid "Light Yellow:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:87
+msgid "Light Blue:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:88
+msgid "Light Magenta:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:89
+msgid "Light Cyan:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:90
+msgid "Light Gray:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:91
+msgid "Background:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:92
+msgid "Foreground:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:93
+msgid "Cursor:"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:190
+msgid "Close"
+msgstr "மூடு"
+
+#: src/Dialogs/ColorPreferencesDialog.vala:310
+msgid "Contrast is very low"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:313
+msgid "Contrast is low"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:316
+msgid "Contrast is good"
+msgstr ""
+
+#: src/Dialogs/ColorPreferencesDialog.vala:319
+msgid "Contrast is high"
+msgstr ""
+
+#: src/Dialogs/ForegroundProcessDialog.vala:26
+msgid "Are you sure you want to close this tab?"
+msgstr "நீங்கள் தவலிளிருந்து வெளியேற வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:28
+msgid "There is an active process on this tab."
+msgstr "இந்த தவலில் ஒரு செயல் செயல்பாட்டில் உள்ளது."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:29
+msgid "If you close it, the process will end."
+msgstr ""
+
+#: src/Dialogs/ForegroundProcessDialog.vala:31
+#: src/Widgets/TerminalView.vala:211
+msgid "Close Tab"
+msgstr "தத்தலை மூடுக"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:38
+msgid "Are you sure you want to quit Terminal?"
+msgstr "நீங்கள் முனையத்திலிருந்து வெளியேற வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:40
+msgid "There is an active process on this terminal."
+msgstr "இந்த முனையத்தில் ஒரு செயல் செயல்பாட்டில் உள்ளது."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:41
+msgid "If you quit Terminal, the process will end."
+msgstr ""
+
+#: src/Dialogs/ForegroundProcessDialog.vala:43
+msgid "Quit Terminal"
+msgstr "முனையத்திலிருந்து வெளியேறு"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:50
+#, fuzzy
+#| msgid "Are you sure you want to close this tab?"
+msgid "Are you sure you want to reload this tab?"
+msgstr "நீங்கள் தவலிளிருந்து வெளியேற வேண்டும் என்பதில் உறுதியாக இருக்கிறீர்களா?"
+
+#: src/Dialogs/ForegroundProcessDialog.vala:52
+#, fuzzy
+#| msgid "There is an active process on this terminal."
+msgid ""
+"There is an active process on this tab. If you reload it, the process will "
+"end."
+msgstr "இந்த முனையத்தில் ஒரு செயல் செயல்பாட்டில் உள்ளது."
+
+#: src/Dialogs/ForegroundProcessDialog.vala:54
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Reload Tab"
+msgstr "தத்தலை மூடுக"
+
+#: src/Dialogs/UnsafePasteDialog.vala:34
+msgid ""
+"Copying commands into Terminal can be dangerous. Be sure you understand what "
+"each part of the pasted text does before continuing."
+msgstr ""
+
+#: src/Dialogs/UnsafePasteDialog.vala:36
+msgid "Show paste protection warnings"
+msgstr ""
+
+#: src/Dialogs/UnsafePasteDialog.vala:41
+msgid "Don't Paste"
+msgstr ""
+
+#: src/Dialogs/UnsafePasteDialog.vala:43
+msgid "Paste Anyway"
+msgstr ""
+
+#: src/Widgets/SearchToolbar.vala:36
+msgid "Find"
+msgstr ""
+
+#: src/Widgets/SearchToolbar.vala:42
+msgid "Previous result"
+msgstr ""
+
+#: src/Widgets/SearchToolbar.vala:49
+msgid "Next result"
+msgstr ""
+
+#: src/Widgets/SearchToolbar.vala:58
+msgid "Cyclic search"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:42
+#, fuzzy
+msgid "Zoom out"
+msgstr "சிறிதாக்கு"
+
+#: src/Widgets/SettingsPopover.vala:50
+msgid "Default zoom level"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:58
+#, fuzzy
+msgid "Zoom in"
+msgstr "பெரிதாக்கு"
+
+#: src/Widgets/SettingsPopover.vala:86
+msgid "Follow System Style"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:95
+msgid "High Contrast"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:98
+msgid "Solarized Light"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:108
+msgid "Custom"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:114
+msgid "Natural Copy/Paste"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:115
+msgid "Shortcuts don’t require Shift; may interfere with CLI apps"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:119
+msgid "Event Alerts"
+msgstr ""
+
+#: src/Widgets/SettingsPopover.vala:120
+msgid ""
+"Notify for invalid input or multiple possible completions (subject to System "
+"Settings → Sound)"
+msgstr ""
+
+#: src/Widgets/TerminalWidget.vala:28
+msgid "Terminal"
+msgstr "முனையம்"
+
+#: src/Widgets/TerminalWidget.vala:494
+msgid "The pasted text may contain multiple commands"
+msgstr ""
+
+#: src/Widgets/TerminalWidget.vala:496
+msgid "The pasted text may be trying to gain administrative access"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:62
+msgid "New Tab"
+msgstr "புதிய கீற்று"
+
+#: src/Widgets/TerminalView.vala:69
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Closed Tabs"
+msgstr "தத்தலை மூடுக"
+
+#: src/Widgets/TerminalView.vala:209
+msgid "Close Tabs to the Right"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:210
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Close Other Tabs"
+msgstr "தத்தலை மூடுக"
+
+#: src/Widgets/TerminalView.vala:214
+#, fuzzy
+#| msgid "New Window"
+msgid "Open in New Window"
+msgstr "புதிய சாளரம்"
+
+#: src/Widgets/TerminalView.vala:215
+msgid "Duplicate Tab"
+msgstr ""
+
+#: src/Widgets/TerminalView.vala:218
+#, fuzzy
+#| msgid "Close Tab"
+msgid "Reload"
+msgstr "தத்தலை மூடுக"
+
+#: src/Widgets/ZoomOverlay.vala:15
+#, c-format
+msgid "Zoom: %.0f%%"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Open a new window"
+#~ msgid "Open a new terminal tab"
+#~ msgstr "புதிய சாளரத்தை திற"
+
+#~ msgid "Cancel"
+#~ msgstr "இரத்துசெய்"
+
+#~ msgid "Use the command line"
+#~ msgstr "கட்டளை வரியை பயன்படுத்து"
+
+#~ msgid "Create a new tab"
+#~ msgstr "புதிய தாவலை உருவாக்க"
+
+#~ msgid "Copy the selected text"
+#~ msgstr "தேர்ந்தெடுக்கப்பட்டுள்ள உரையை நகலெடு"
+
+#~ msgid "Paste some text"
+#~ msgstr "ஏதேனும் உரையை ஒட்டவும்"
+
+#~ msgid "Select all the text in the terminal"
+#~ msgstr "முனையத்தில் உள்ள அனைத்து உரையையும் தேர்ந்தெடுக்க"
+
+#~ msgid "About"
+#~ msgstr "பற்றி"
+
+#~ msgid "Show about window"
+#~ msgstr "சாளரத்தை பற்றி காட்டு"
+
+#~ msgid "Next Tab"
+#~ msgstr "அடுத்த தத்தல்"
+
+#~ msgid "Go to next tab"
+#~ msgstr "அடுத்த தாவலுக்கு செல்ல"
+
+#~ msgid "Previous Tab"
+#~ msgstr "முந்தைய தத்தல்"
+
+#~ msgid "Go to previous tab"
+#~ msgstr "முந்தைய தாவலுக்கு செல்ல"
+
+#~ msgid "Toggle/Untoggle fullscreen"
+#~ msgstr "டாகுள்/அண்டாகுள் முழுதிரை"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Khaleel Jageer https://launchpad.net/~jskcse4\n"
+#~ "  Maxwell Barvian https://launchpad.net/~mbarvian-deactivatedaccount"
+
+#~ msgid "Print version info and exit"
+#~ msgstr "பதிப்பின் தகவல்களை அச்சிட்டு வெளியேறவும்"
+
+#~ msgid "Open a new tab"
+#~ msgstr "புதிய தத்தலை திற"
+
+#~ msgid "New Root Window"
+#~ msgstr "புதிய ரூட் சாளரம்"
+
+#~ msgid "If you quit Terminal, this process will end."
+#~ msgstr "நீங்கள் முனையத்திலிருந்து வெளியேறினால், இந்த செயல்பாடு நிறுத்தப்படும்."
+
+#~ msgid "If you close this tab, this process will end."
+#~ msgstr "இந்த தாவலை மூடினால், இந்த செயல்பாடு நிறுத்தப்படும்."
+
+#~ msgid "Set shell at launch"
+#~ msgstr "துவக்கத்தில் ஷெல்லை அமைக்கவும்"

@@ -1,0 +1,48 @@
+# This file should be sourced  from /etc/zshrc or $ZDOTDIR/.zshrc in order to
+# enable process completion notifications in Pantheon Terminal.
+# Like this:
+#builtin . /usr/share/io.phyre.terminal/enable-zsh-completion-notifications || builtin true
+
+# If you come up with a way to inject this without modifying those files,
+# please let me know at <sergey@elementaryos.org>
+
+if [[ -n "$PANTHEON_TERMINAL_ID" ]] \
+&& builtin hash dbus-send 2> /dev/null \
+&& [[ -z $(whence pantheon_terminal_command_competion_callback) ]]
+then
+    pantheon_terminal_command_competion_callback() {
+        dbus-send \
+            --type=method_call \
+            --session \
+            --dest=io.phyre.terminal \
+            /io/elementary/terminal \
+            io.phyre.terminal.ProcessFinished \
+            string:$PANTHEON_TERMINAL_ID \
+            string:"$(fc -ln -1)" \
+            int32:$?
+    }
+    precmd_functions+=(pantheon_terminal_command_competion_callback)
+fi
+
+# Some shells (e.g. BASH) lack the post-execution hook,
+# so we insert a callback into their pre-prompt hook instead.
+# This results in a bogus callback on first prompt, which has to be ignored.
+# I've tried some clever focus-based suppression but it was prone to race conditions.
+# The only reliable way to work that around that we've found
+# is always ignoring the first callback in each tab on the terminal side
+# and deliberately issuing a fake callback from shells with a proper
+# post-execution hook, such zsh and fish.
+if [[ -n "$PANTHEON_TERMINAL_ID" ]] \
+&& builtin hash dbus-send 2> /dev/null
+then
+    dbus-send \
+        --type=method_call \
+        --session \
+        --dest=io.phyre.terminal \
+        /io/elementary/terminal \
+        io.phyre.terminal.ProcessFinished \
+        string:$PANTHEON_TERMINAL_ID \
+        string:"You should not have seen this, please report the incident to Pantheon Terminal developers." \
+        int32:0
+fi
+
